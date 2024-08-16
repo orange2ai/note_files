@@ -1,0 +1,917 @@
+Stanford_ECON295⧸CS323_I_2024_I_The_Age_of_AI,_Eric_Schmidt ------------------------------------------------------------------- today's guest really does need an introduction. I think I first met Eric about 25 years ago when he came to Stanford Business School as CEO of Novell.
+斯坦福_ECON295⧸CS323_I_2024_I_The_Age_of_AI,_Eric_Schmidt ------------------------------------------------------------------- 今天的客人确实需要介绍一下。 我想我第一次见到 Eric 是在大约 25 年前，当时他来到斯坦福商学院，担任 Novell 的首席执行官。
+He's had done a few things since then at Google starting I think 2001 and Schmidt Futures starting in 2017 and done a whole bunch of other things you can read about, but he can only be here until 5/15, so I thought we'd dive right into some questions, and I know you guys have sent some as well.
+从那时起，他在 Google 做了一些事情，我想是从 2001 年开始，Schmidt Futures 从 2017 年开始，做了很多其他你可以读到的事情，但他只能在这里呆到 5 月 15 日，所以我想我们会直接讨论一些问题，我知道你们也发了一些问题。
+I have a bunch written here, but what we just talked about upstairs was even more interesting, so I'm just going to start with that, Eric, if that's okay, which is where do you see AI going in the short term, which I think you defined as the next year or two?
+我在这里写了一堆，但我们刚才在楼上讨论的更有趣，所以我就从这个开始，埃里克，如果可以的话，这就是你认为人工智能在短期内的发展方向，我想你定义的是未来一两年？
+Things have changed so fast, I feel like every six months I need to sort of give a new speech on what's going to happen.
+事情变化得太快了，我觉得每六个月我就需要就即将发生的事情发表一次新的演讲。
+
+Can anybody hear the computer, the budget computer science engineer, can anybody explain what a million-token context window is for the rest of the class? You're here. Say your name, tell us what it does.
+任何人都可以听到计算机的声音，预算计算机科学工程师，任何人都可以向班上的其他人解释百万令牌上下文窗口是什么吗？ 你在这里。 说出你的名字，告诉我们它的作用。
+Basically it allows you to prompt with like a million tokens or a million words or whatever. So you can ask a million-word question.
+基本上，它允许您使用一百万个令牌或一百万个单词或其他内容进行提示。 所以你可以问一个百万字的问题。
+
+Yes, I know this is a very large direction in January now. No, no, they're going to 10. Yes, a couple of them. Anthropic is at 200,000 going to a million and so forth. You can imagine OpenAI has a similar goal.
+是的，我知道这是一月份一个非常大的方向。不，不，他们要 10 个。是的，其中几个。人择是从 200,000 到 100,000 等等。你可以想象 OpenAI 也有类似的目标。
+
+Can anybody here give a technical definition of an AI agent? Yes, sir. So an agent is something that does some kind of a task. Another definition would be that it's an LLM state in memory. Can anybody, again, computer scientists, can any of you define text to action?
+这里有人可以给出人工智能代理的技术定义吗？是的，先生。所以代理是执行某种任务的东西。另一个定义是它是一个LLM内存中的状态。计算机科学家们，你们中的任何人都可以定义文本到动作吗？
+
+Taking text and turning it into an action? Right here. Go ahead. Yes, instead of taking text and turning it into more text, more text, taking text and have the AI trigger actions.
+获取文本并将其转化为行动？ 就在这里。 前进。 是的，不是获取文本并将其变成更多文本，更多文本，而是获取文本并让人工智能触发操作。
+So another definition would be language to Python, a programming language I never wanted to see survive and everything in AI is being done in Python.
+所以另一个定义是 Python 语言，我从来不想看到这种编程语言生存下来，人工智能中的一切都是用 Python 完成的。
+
+There's a new language called Mojo that has just come out, which looks like they finally have addressed AI programming, but we'll see if that actually survives over the dominance of Python. One more technical question.
+有一种名为 Mojo 的新语言刚刚问世，看起来他们终于解决了人工智能编程问题，但我们将看看它是否真的能超越 Python 的统治地位。 还有一个技术问题。
+Why is NVIDIA worth $2 trillion and the other companies are struggling? Technical answer. I mean, I think it just boils down to like most of the code needs to run with CUDA optimizations that currently only NVIDIA GPU supports.
+为什么英伟达市值2万亿美元而其他公司却苦苦挣扎？ 技术解答。 我的意思是，我认为归根结底，大多数代码都需要使用目前只有 NVIDIA GPU 支持的 CUDA 优化来运行。
+
+Other companies can make whatever they want to, but unless they have the 10 years of software there, you don't have the machine learning optimization. I like to think of CUDA as the C programming language for GPUs. That's the way I like to think of it. It was founded in 2008.
+其他公司可以生产他们想要的任何产品，但除非他们拥有 10 年的软件，否则你就没有机器学习优化。 我喜欢将 CUDA 视为 GPU 的 C 编程语言。 这就是我喜欢的思考方式。 它成立于2008年。
+I always thought it was a terrible language and yet it's become dominant.
+我一直认为这是一种糟糕的语言，但它已经成为主导语言。
+
+There's another insight. There's a set of open source libraries which are highly optimized to CUDA and not anything else and everybody who builds all these stacks, this is completely missed in any of the discussions.
+还有另一种见解。 有一组针对 CUDA 高度优化的开源库，而不是其他任何东西，以及构建所有这些堆栈的每个人，在任何讨论中都完全忽略了这一点。
+It's technically called VLM and a whole bunch of libraries like that. Highly optimized CUDA, very hard to replicate that if you're a competitor. So what does all this mean?
+从技术上讲，它被称为 VLM 和一大堆类似的库。 高度优化的 CUDA，如果您是竞争对手，则很难复制。 那么这一切意味着什么呢？
+
+In the next year, you're going to see very large context windows, agents and text action. When they are delivered at scale, it's going to have an impact on the world at a scale that no one understands yet. Much bigger than the horrific impact we've had by social media in my view.
+明年，您将看到非常大的上下文窗口、代理和文本操作。 当它们大规模交付时，将对世界产生尚无人了解的影响。 在我看来，这比社交媒体给我们带来的可怕影响要大得多。
+So here's why. In a context window, you can basically use that as short-term memory and I was shocked that context windows get this long.
+这就是原因。 在上下文窗口中，您基本上可以将其用作短期记忆，我对上下文窗口变得这么长感到震惊。
+
+The technical reasons have to do with the fact that it's hard to serve, hard to calculate and so forth.
+技术原因与服务困难、计算困难等有关。
+The interesting thing about short-term memory is when you feed, you're asking a question read 20 books, you give it the text of the books as the query and you say, tell me what they say. It forgets the middle, which is exactly how human brains work too. That's where we are.
+关于短期记忆的有趣之处在于，当你喂食时，你会问一个问题，读了 20 本书，你给它书的文本作为查询，然后你说，告诉我他们说什么。 它忘记了中间部分，而这正是人类大脑的工作方式。 这就是我们现在的情况。
+With respect to agents, there are people who are now building essentially LLM agents and the way they do it is they read something like chemistry, they discover the principles of chemistry and then they test it and then they add that back into their understanding.
+就代理而言，现在有人基本上正在构建LLM他们的方式是阅读化学之类的东西，发现化学原理，然后对其进行测试，然后将其添加回他们的理解中。
+
+That's extremely powerful. And then the third thing, as I mentioned is text to action. So I'll give you an example. The government is in the process of trying to ban TikTok. We'll see if that actually happens.
+这是非常强大的。第三件事，正如我提到的，是文字到行动。所以我给你举个例子。政府正在尝试禁止 TikTok。我们将看看这是否真的发生。
+
+If TikTok is banned, here's what I propose each and every one of you do. Say to your LLM the following.
+如果 TikTok 被禁止，我建议你们每个人都这样做。 对你的说LLM下列。
+Make me a copy of TikTok, steal all the users, steal all the music, put my preferences in it, produce this program in the next 30 seconds, release it and in one hour, if it's not viral, do something different along the same lines. That's the command. Boom, boom, boom, boom.
+给我制作一份 TikTok 的副本，窃取所有用户，窃取所有音乐，将我的偏好放入其中，在接下来的 30 秒内制作该程序，发布它并在一小时内，如果它没有病毒式传播，则按照相同的方式做一些不同的事情线。 这就是命令。 繁荣，繁荣，繁荣，繁荣。
+
+You understand how powerful that is.
+你就明白这有多强大了。
+If you can go from arbitrary language to arbitrary digital command, which is essentially what Python in this scenario is, imagine that each and every human on the planet has their own programmer that actually does what they want as opposed to the programmers that work for me who don't do what I ask, right?
+如果你可以从任意语言过渡到任意数字命令（这本质上就是这个场景中的 Python），想象一下地球上的每个人都有自己的程序员，他们实际上可以做他们想做的事情，而不是为我工作的程序员谁不按我的要求做，对吗？
+The programmers here know what I'm talking about. So imagine a non-arrogant programmer that actually does what you want and you don't have to pay all that money to and there's infinite supply of these programs. That's all within the next year or two.
+这里的程序员知道我在说什么。 因此，想象一下一个不傲慢的程序员实际上可以做你想做的事情，你不必支付所有的钱，而且这些程序的供应是无限的。 这都是未来一两年内的事情。
+
+Very soon. Those three things, and I'm quite convinced it's the union of those three things that will happen in the next wave. So you asked about what else is going to happen. Every six months I oscillate. So we're on a, it's an even odd oscillation.
+很快。这三件事，我非常确信这三件事的结合将在下一波浪潮中发生。所以你问还会发生什么。每六个月我就会摇摆一次。所以我们处于一个奇偶振荡状态。
+
+So at the moment, the gap between the frontier models, which they're now only three, I'll refute who they are, and everybody else, appears to me to be getting larger. Six months ago, I was convinced that the gap was getting smaller.
+所以目前，前沿模型之间的差距（现在只有三个，我会反驳他们是谁）和其他人之间的差距，在我看来似乎越来越大。 六个月前，我确信差距正在缩小。
+So I invested lots of money in the little companies. Now I'm not so sure. And I'm talking to the big companies and the big companies are telling me that they need 10 billion, 20 billion, 50 billion, 100 billion.
+所以我在小公司投资了很多钱。 现在我不太确定了。 我正在和大公司交谈，大公司告诉我他们需要 100 亿、200 亿、500 亿、1000 亿。
+
+Stargate is a 100 billion, right? That's very, very hard. I talked to Sam Altman is a close friend. He believes that it's going to take about 300 billion, maybe more. I pointed out to him that I'd done the calculation on the amount of energy required.
+星际之门是千亿吧？这非常非常困难。我和萨姆·奥尔特曼交谈过，他是我的好朋友。他认为这大约需要3000亿，甚至更多。我向他指出我已经计算了所需的能量。
+
+And I, and I then in the spirit of full disclosure, went to the white house on Friday and told them that we need to become best friends with Canada because Canada has really nice people, helped invent AI, and lots of hydropower.
+我，然后本着充分披露的精神，周五去了白宫，告诉他们我们需要与加拿大成为最好的朋友，因为加拿大有非常好的人民，帮助发明了人工智能和大量的水力发电。
+Because we as a country do not have enough power to do this. The alternative is to have the Arabs fund it. And I like the Arabs personally. I spent lots of time there, right?
+因为我们作为一个国家没有足够的力量来做到这一点。 另一种选择是让阿拉伯人资助它。 我个人喜欢阿拉伯人。 我在那里度过了很多时间，对吗？
+
+But they're not going to adhere to our national security rules. Whereas Canada and the U.S. are part of a triumvirate where we all agree. So these $100 billion, $300 billion data centers, electricity starts becoming the scarce resource.
+但他们不会遵守我们的国家安全规则。 而加拿大和美国 是我们都同意的三巨头的一部分。 所以这些1000亿、3000亿美元的数据中心，电力开始成为稀缺资源。
+Well, and by the way, if you follow this line of reasoning, why did I discuss CUDA and Nvidia?
+好吧，顺便说一句，如果你按照这个推理思路，我为什么要讨论 CUDA 和 Nvidia？
+
+If $300 billion is all going to go to Nvidia, you know what to do in the stock market. Okay. That's not a stock recommendation. I'm not a licensed. Well, part of it, so we're going to need a lot more chips, but Intel is getting a lot of money from the U.S.
+如果 3000 亿美元全部流向英伟达，你就知道在股市该怎么做了。好的。这不是股票推荐。我不是有执照的。嗯，一部分，所以我们需要更多的芯片，但英特尔从美国获得了很多钱
+
+government, AMD, and they're trying to build, you know, fabs in Korea. Raise your hand if you have an Intel computer in your, an Intel chip in any of your computing devices. Okay. So much for the monopoly. Well, that's the point though.
+政府、AMD，他们正试图在韩国建造晶圆厂。如果您的计算机中有英特尔计算机，任何计算设备中都有英特尔芯片，请举手。好的。垄断就这么多了。嗯，这就是重点。
+
+They once did have a monopoly. Absolutely. And Nvidia has a monopoly now.
+他们曾经确实拥有垄断地位。 绝对地。 而英伟达现在已经垄断了。
+So are those barriers to entry, like CUDA, is that, is there something that other, so I was talking to Percy, Percy Landy the other day, he's switching between TPUs and Nvidia chips, depending on what he can get access to for training models.
+那些进入壁垒，比如 CUDA，是不是还有其他的东西，所以前几天我和 Percy、Percy Landy 交谈过，他正在 TPU 和 Nvidia 芯片之间切换，具体取决于他可以获得什么来进行训练模型。
+That's because he doesn't have a choice.
+那是因为他别无选择。
+
+If he had infinite money, he would, today he would pick the B200 architecture out of Nvidia because it would be faster. And I'm not suggesting, I mean, it's great to have competition. I've talked to AMD and Lisa Sue at great length.
+如果他有无限的钱，他会的，今天他会选择 Nvidia 的 B200 架构，因为它会更快。 我并不是在建议，我的意思是，有竞争是很棒的。 我与 AMD 和 Lisa Sue 进行了长时间的交谈。
+They have built a, a thing which will translate from this CUDA architecture that you were describing to their own, which is called Rockum. It doesn't quite work yet.
+他们已经构建了一个可以从您所描述的 CUDA 架构转换为他们自己的架构的东西，称为 Rockum。 它还不太有效。
+
+They're working on it. You were at Google for a long time and they invented the transformer architecture. Peter, Peter. It's all Peter's fault. Thanks to, to brilliant people over there, like Peter and Jeff Dean and everyone.
+他们正在努力。你在 Google 工作了很长时间，他们发明了 Transformer 架构。彼得，彼得。这都是彼得的错。感谢那里的杰出人士，比如彼得和杰夫·迪恩以及所有人。
+
+But now it doesn't seem like they're, they've kind of lost the initiative to open AI and even the last leaderboard, I saw Anthropix. Claude was at the top of the list. I asked Sundar this, he didn't really give me a very sharp answer.
+但现在看来他们不是了，他们有点失去了开放AI的主动权，甚至最后一个排行榜，我看到了Anthropix。 克劳德名列榜首。 我问了Sundar这个问题，他并没有给我一个非常尖锐的答案。
+Maybe, maybe you have a sharper or a more objective explanation for what's going on there. I'm no longer a Google employee in the spirit of full disclosure.
+也许，也许你对那里发生的事情有更尖锐或更客观的解释。 本着充分披露的精神，我不再是谷歌员工。
+
+Google decided that work life balance and going home early and working from home was more important than winning. And the startups, the reason startups work is because the people work like hell.
+谷歌认为，工作与生活的平衡、早点回家和在家工作比获胜更重要。 对于初创公司来说，初创公司之所以能成功，是因为人们拼命工作。
+And I'm sorry to be so blunt, but the fact of the matter is if you all leave the university and go found a company, you're not going to let people work from home and only come in one day a week.
+我很抱歉这么直言不讳，但事实是，如果你们都离开大学去寻找一家公司，你们不会让人们在家工作，每周只来一天。
+If you want to compete against the other startups with the early days of Google, Microsoft was like that. Exactly.
+如果你想与谷歌早期的其他初创公司竞争，微软就是这样的。 确切地。
+
+But now it seems to be, there's a long history of in my industry, our industry, I guess, of companies winning in a genuinely creative way and really dominating a space and not making this the next transition. So we're very well documented.
+但现在看来，在我的行业、我们的行业，我想，公司以真正创造性的方式获胜并真正主导一个领域，并且没有将其作为下一个转型，有着悠久的历史。 所以我们有很好的记录。
+And I think that the truth is founders are special. The founders need to be in charge. The founders are difficult to work with.
+我认为事实是创始人很特别。 创始人需要负责。 创始人很难共事。
+
+They push people hard. As much as we can dislike Elon's personal behavior, look at what he gets out of people. I had dinner with him and he was flying. I was in Montana. He was flying that night at 10 PM to have a meeting at midnight with x.ai.
+他们对人们施加压力。尽管我们可能不喜欢埃隆的个人行为，但看看他从人们身上得到了什么。我和他一起吃晚饭，他正在飞行。我当时在蒙大拿州。那天晚上 10 点，他乘飞机前往午夜与 x.ai 开会。
+
+I was in Taiwan, different country, different culture. And they said that this is TSMC, who I'm very impressed with. And they have a rule that the starting PhDs coming out of the good physicists work in the factory on the basement floor.
+我在台湾，不同的国家，不同的文化。 他们说这是台积电，我对他印象非常深刻。 他们有一条规定，优秀物理学家的博士生在工厂的地下室工作。
+Now, can you imagine getting American physicists to do that? The PhDs, highly unlikely.
+现在，你能想象让美国物理学家这么做吗？ 博士，可能性极小。
+
+Different work ethic. And the problem here, the reason I'm being so harsh about work is that these are systems which have network effects. So time matters a lot. And in most businesses, time doesn't matter that much. You have lots of time.
+不同的职业道德。这里的问题是，我对工作如此苛刻的原因是这些系统具有网络效应。所以时间很重要。在大多数企业中，时间并不那么重要。你有很多时间。
+
+Coke and Pepsi will still be around and the fight between Coke and Pepsi will continue to go on and it's all glacial. When I dealt with telcos, the typical telco deal would take 18 months to sign. There's no reason to take 18 months to do anything. Get it done.
+可口可乐和百事可乐仍将存在，可口可乐和百事可乐之间的斗争将继续进行，而且一切都是冰冷的。 当我与电信公司打交道时，典型的电信公司协议需要 18 个月才能签署。 没有理由花 18 个月来做任何事情。 完成它。
+We're in a period of maximum growth, maximum gain.
+我们正处于最大成长、最大收获的时期。
+
+And also it takes crazy ideas. Like when Microsoft did the OpenAI deal, I thought that was the stupidest idea I'd ever heard. Outsourcing essentially your AI leadership to OpenAI and Sam and his team. I mean, that's insane. Nobody would do that at Microsoft or anywhere else.
+这也需要疯狂的想法。就像微软完成 OpenAI 交易时一样，我认为这是我听过的最愚蠢的想法。基本上将您的人工智能领导力外包给 OpenAI 和 Sam 及其团队。我的意思是，这太疯狂了。在微软或其他任何地方，没有人会这样做。
+
+And yet today, they're on their way to being the most valuable company. They're certainly head to head in Apple. Apple does not have a good AI solution and it looks like they made it work. Yes, sir.
+然而今天，他们正在成为最有价值的公司。 他们在苹果公司肯定是正面交锋的。 苹果没有一个好的人工智能解决方案，但看起来他们让它发挥了作用。 是的，先生。
+In terms of national security or geopolitical interests, how do you think AI is going to play a role or competition with China as well?
+从国家安全或地缘政治利益角度来看，您认为人工智能将如何发挥作用或与中国竞争？
+
+So I was the chairman of an AI commission that sort of looked at this very carefully and you can read it. It's about 752 pages and I'll just summarize it by saying we're ahead, we need to stay ahead, and we need lots of money to do so. Our customers were the Senate and the House.
+我是一个人工智能委员会的主席，该委员会非常仔细地研究了这个问题，你可以阅读它。 大约有 752 页，我总结一下，我们处于领先地位，我们需要保持领先地位，并且我们需要大量资金才能做到这一点。 我们的客户是参议院和众议院。
+And out of that came the Chips Act and a lot of other stuff like that. A rough scenario is that if you assume the frontier models drive forward and a few of the open source models, it's likely that a very small number of companies can play this game.
+由此产生了《筹码法案》和许多其他类似的法案。 一个粗略的情况是，如果你假设前沿模型向前发展并且有一些开源模型，那么很可能只有极少数的公司可以玩这个游戏。
+
+Countries, excuse me. What are those countries or who are they? Countries with a lot of money and a lot of talent, strong educational systems, and a willingness to win. The US is one of them. China is another one.
+国家，请原谅。这些国家是什么或者他们是谁？这些国家拥有大量资金和人才、强大的教育体系以及求胜的意愿。美国就是其中之一。中国是另一个。
+
+How many others are there? Are there any others? I don't know. Maybe. But certainly in your lifetimes, the battle between the US and China for knowledge supremacy is going to be the big fight.
+还有多少人？还有其他人吗？我不知道。或许。但可以肯定的是，在你们有生之年，美国和中国之间的知识霸权之战将是一场大战。
+
+So the US government banned essentially the NVIDIA chips, although they weren't allowed to say that was what they were doing, but they actually did that into China. They have about a 10-year chip advantage.
+因此，美国政府基本上禁止了 NVIDIA 芯片，尽管他们不被允许说他们正在做的事情，但他们实际上在中国这样做了。 他们拥有大约10年的芯片优势。
+We have a roughly 10-year chip advantage in terms of sub-DUV that is sub-five Danometer chips. So an example would be today we're a couple of years ahead of China. My guess is we'll get a few more years ahead of China, and the Chinese are whopping mad about this.
+我们在低于 5 级 Danometer 芯片的低于 DUV 方面拥有大约 10 年的芯片优势。 举个例子，今天我们领先中国几年。 我的猜测是我们将领先中国几年，而中国人对此非常愤怒。
+
+It's like hugely upset about it. So that's a big deal. That was a decision made by the Trump administration and driven by the Biden administration. Do you find that the administration today in Congress is listening to your advice?
+好像对此感到非常沮丧。 所以这是一件大事。 这是特朗普政府做出的、拜登政府推动的决定。 您是否发现国会今天的政府正在听取您的建议？
+Do you think that it's going to make that scale of investment?
+您认为它会进行如此规模的投资吗？
+
+Obviously the chips act, but beyond that, building a massive AI system? So as you know, I lead an informal, ad hoc, non-legal group. That's different from illegal. That's exactly. Just to be clear.
+显然，芯片发挥了作用，但除此之外，还构建了一个庞大的人工智能系统吗？如您所知，我领导着一个非正式的、临时的、非法律的小组。这和非法是有区别的。正是如此。只是要明确一点。
+
+Which includes all the usual suspects. And the usual suspects over the last year came up with the basis of the reasoning that became the Biden administration's AI act, which is the longest presidential directive in history.
+其中包括所有常见的嫌疑人。 去年，常见的嫌疑人提出了成为拜登政府人工智能法案的推理基础，该法案是历史上最长的总统指令。
+You're talking about the special competitive studies project? No, this is the actual act from the executive office. And they're busy implementing the details.
+你说的是特殊竞争研究项目？ 不，这是执行办公室的实际行动。 他们正忙于实施细节。
+
+So far they've got it right. And so, for example, one of the debates that we had for the last year has been, how do you detect danger in a system which has learned it but you don't know what to ask it? So in other words, it's a core problem.
+到目前为止，他们做对了。 例如，我们去年的争论之一是，如何在一个已经学会了危险但不知道该问什么的系统中检测到危险？ 换句话说，这是一个核心问题。
+It's learned something bad, but it can't tell you what it learned and you don't know what to ask it. And there's so many threats.
+它学到了一些不好的东西，但它无法告诉你它学到了什么，你也不知道该问它什么。 而且还有很多威胁。
+
+Like it learned how to mix chemistry in some new way that you don't know how to ask it. And so people are working hard on that.
+就像它学会了如何以某种新的方式混合化学物质，而你不知道如何问它。 因此人们正在为此努力。
+But we ultimately wrote in our memos to them that there was a threshold which we arbitrarily named as 10 to the 26 flops, which technically is a measure of computation, that above that threshold you had to report to the government that you were doing this.
+但我们最终在给他们的备忘录中写道，有一个阈值，我们武断地将其命名为 10 到 26 次失败，从技术上讲，这是一种计算方法，超过该阈值，你必须向政府报告你正在这样做。
+And that's part of the rule. The EU to just make sure they were different did it 10 to the 25.
+这是规则的一部分。 欧盟为了确保它们与众不同，做了 10 到 25 个。
+
+But it's all kind of close enough. I think all of these distinctions go away because the technology will now, the technical term is called federated training, where basically you can take pieces and union them together.
+但一切都足够接近了。 我认为所有这些区别都会消失，因为现在的技术将会消失，技术术语称为联合训练，基本上你可以将各个部分组合在一起。
+So we may not be able to keep people safe from these new things. Well, rumors are that that's how OpenEye has had to train, partly because of the power consumption. There was no one place where they did.
+因此，我们可能无法让人们免受这些新事物的侵害。 嗯，有传言说 OpenEye 必须这样训练，部分原因是功耗。 他们没有一处地方这样做过。
+
+Well, let's talk about a real war that's going on. I know that something you've been very involved in is the Ukraine war and in particular, I don't know if you can talk about white stork and your goal of having $500,000, $500 drones destroy $5 million tanks.
+好吧，让我们来谈谈正在发生的一场真实的战争。 我知道你一直积极参与乌克兰战争，特别是，我不知道你是否可以谈谈白鹳以及你的目标，即让价值 50 万美元、500 美元的无人机摧毁价值 500 万美元的坦克。
+How's that changing warfare? I worked for the Secretary of Defense for seven years and tried to change the way we run our military. I'm not a particularly big fan of the military, but it's very expensive and I wanted to see if I could be helpful.
+战争如何改变？ 我为国防部长工作了七年，并试图改变我们管理军队的方式。 我不是特别喜欢军队，但军队非常昂贵，我想看看我是否可以提供帮助。
+
+And I think in my view, I largely failed. They gave me a medal, so they must give medalists to failure or whatever. But my self-criticism was nothing has really changed and the system in America is not going to lead to real innovation.
+我认为在我看来，我很大程度上失败了。 他们给了我一枚奖牌，所以他们必须给失败或其他什么的奖牌获得者。 但我的自我批评是，什么都没有真正改变，美国的体系不会带来真正的创新。
+So watching the Russians use tanks to destroy apartment buildings with little old ladies and kids just drove me crazy. So I decided to work on a company with your friend Sebastian Thrun as a former faculty member here and a whole bunch of Stanford people.
+因此，看着俄罗斯人用坦克摧毁有小老太太和孩子的公寓楼，我简直要发疯了。 所以我决定和你的朋友塞巴斯蒂安·特龙（Sebastian Thrun）一起在一家公司工作，塞巴斯蒂安·特龙是这里的前任教员，还有一群斯坦福大学的人。
+
+And the idea basically is to do two things. Use AI in complicated, powerful ways for these essentially robotic war and the second one is to lower the cost of the robots. Now you sit there and you go, why would a good liberal like me do that?
+这个想法基本上是做两件事。 以复杂而强大的方式使用人工智能来应对这些本质上是机器人的战争，第二个是降低机器人的成本。 现在你坐在那里然后走，为什么像我这样的优秀自由主义者会这样做呢？
+And the answer is that the whole theory of armies is tanks, artilleries, and mortar and we can eliminate all of them and we can make the penalty for invading a country at least by land essentially be impossible. It should eliminate the kind of land battles.
+答案是，整个军队的理论就是坦克、火炮和迫击炮，我们可以消除所有这些，我们可以使至少通过陆路入侵一个国家的惩罚基本上是不可能的。 应该消除那种陆战。
+
+Well, this is a relationship question is that does it give more of an advantage to defense versus offense? Can you even make that distinction? Because I've been doing this for the last year, I've learned a lot about war that I really did not want to know.
+嗯，这是一个关系问题，即防守相对于进攻是否更有优势？ 你能做出这样的区分吗？ 因为我去年一直在这样做，所以我学到了很多我真的不想知道的关于战争的知识。
+And one of the things to know about war is that the offense always has the advantage because you can always overwhelm the defensive systems. And so you're better off as a strategy of national defense to have a very strong offense that you can use if you need to.
+关于战争要知道的一件事是进攻总是有优势，因为你总是可以压倒防御系统。 因此，作为国防战略，最好有一个非常强大的进攻，可以在需要时使用。
+
+And the systems that I and others are building will do that. Because of the way the system works, I am now a licensed arms dealer, a computer scientist, businessman, and an arms dealer. Is that a progression? I don't know. I do not recommend this in your group.
+我和其他人正在构建的系统将做到这一点。由于该系统的工作方式，我现在是一名有执照的军火商、计算机科学家、商人和军火商。这是一个进步吗？我不知道。我不推荐在你们的小组中这样做。
+
+I stick with AI. And because of the way the laws work, we're doing this privately and then this is all legal with the support of the governments. It goes straight into the Ukraine and then they fight the war. And without going into all the details, things are pretty bad.
+我坚持使用人工智能。 由于法律的运作方式，我们是私下进行的，然后在政府的支持下这一切都是合法的。 它直接进入乌克兰，然后他们打仗。 如果不深入了解所有细节，情况会非常糟糕。
+I think if in May or June, if the Russians build up as they are expecting to, Ukraine will lose a whole chunk of its territory and will begin the process of losing the whole country.
+我认为，如果在五月或六月，如果俄罗斯人按照他们的预期进行建设，乌克兰将失去一大片领土，并将开始失去整个国家的过程。
+
+So the situation is quite dire. And if anyone knows Marjorie Taylor Greene, I would encourage you to delete her from your contact list because she's the one, a single individual is blocking the provision of some number of billions of dollars to save an important democracy.
+所以情况是相当严峻的。 如果有人认识马乔里·泰勒·格林，我会鼓励你从你的联系人列表中删除她，因为她就是那个人，一个人正在阻止提供数十亿美元来拯救一个重要的民主国家。
+I want to switch to a little bit of a philosophical question. So there was an article that you and Henry Kissinger and Dan Huttenlecker wrote last year about the nature of knowledge and how it's evolving. I had a discussion the other night about this as well.
+我想谈谈一个哲学问题。 去年，您和亨利·基辛格和丹·胡滕莱克共同撰写了一篇关于知识的本质及其演变的文章。 那天晚上我也讨论过这个问题。
+
+So for most of history, humans sort of had a mystical understanding of the universe and then there's the scientific revolution and the enlightenment.
+因此，在历史的大部分时间里，人类对宇宙都有一种神秘的理解，然后出现了科学革命和启蒙运动。
+And in your article, you argue that now these models are becoming so complicated and difficult to understand that we don't really know what's going on in them. I'll take a quote from Richard Feynman.
+在您的文章中，您认为现在这些模型变得如此复杂且难以理解，以至于我们并不真正知道其中发生了什么。 我引用理查德·费曼的话。
+He says, "What I cannot create, I do not understand." I saw this quote the other day. But now people are creating things that they can create, but they don't really understand what's inside of them.
+他说：“我无法创造的东西，我就不理解。”前几天我看到了这句话。 但现在人们正在创造他们可以创造的东西，但他们并不真正了解它们的内部是什么。
+
+Is the nature of knowledge changing in a way? Are we going to have to start just taking the word for these models without them being able to explain it to us? The analogy I would offer is to teenagers.
+知识的本质是否发生了某种变化？ 我们是否必须开始只接受这些模型的说法，而他们却无法向我们解释？ 我想用青少年来比喻。
+If you have a teenager, you know they're human, but you can't quite figure out what they're thinking. But somehow we've managed in society to adapt to the presence of teenagers and they eventually grow out of it.
+如果你有一个青少年，你知道他们是人类，但你无法完全弄清楚他们在想什么。 但不知何故，我们在社会上成功地适应了青少年的存在，而他们最终会成长起来。
+
+I'm just serious. So it's probably the case that we're going to have knowledge systems that we cannot fully characterize, but we understand their boundaries. We understand the limits of what they can do. And that's probably the best outcome we can get.
+我只是认真的。 因此，我们可能会拥有无法完全表征的知识系统，但我们了解它们的边界。 我们了解他们能做的事情的局限性。 这可能是我们能得到的最好结果。
+Do you think we'll understand the limits?
+你认为我们会理解这些限制吗？
+
+We'll get pretty good at it. The consensus of my group that meets every week is that eventually the way you'll do this so-called adversarial AI is that there will actually be companies that you will hire and pay money to to break your AI system. Like Red Team.
+我们会做得很好。 我的小组每周开会的共识是，最终你将采用这种所谓的对抗性人工智能的方式，实际上将会有一些公司你会雇佣并付费来破坏你的人工智能系统。 比如红队。
+So instead of human Red Teams, which is what they do today, you'll have whole companies and a whole industry of AI systems whose jobs are to break the existing AI systems and find their vulnerabilities, especially the knowledge that they have that we can't figure out.
+因此，与他们今天所做的人类红队不同，你将拥有整个公司和整个人工智能系统行业，他们的工作是打破现有的人工智能系统并找到它们的漏洞，特别是他们拥有的知识，我们可以想不通。
+That makes sense to me.
+这对我来说很有意义。
+
+It's also a great project for you here at Stanford, because if you have a graduate student who has to figure out how to attack one of these large models and understand what it does, that is a great skill to build the next generation.
+对于斯坦福大学的你们来说，这也是一个很棒的项目，因为如果你们有一名研究生必须弄清楚如何攻击这些大型模型并了解它的作用，那么这是构建下一代的一项伟大技能。
+So it makes sense to me that the two will travel together. All right, let's take some questions from the student. There's one right there in the back. Just say your name.
+所以对我来说，两人一起旅行是有道理的。 好吧，我们来回答这位同学的一些问题。 后面有一个。 只要说出你的名字。
+
+Earlier you mentioned, and this is related to this comment right now, getting AI that actually does what you want. You just mentioned adversarial AI, and I'm wondering if you can elaborate on that more.
+你之前提到过，这与现在的评论有关，让人工智能真正做你想做的事。 您刚才提到了对抗性人工智能，我想知道您是否可以详细说明一下。
+So it seems to be, besides obviously computer language reasons to get more performant models, but getting them to do what you want to do seems partly unanswered in my view.
+因此，除了明显的计算机语言原因之外，似乎还需要获得更高性能的模型，但在我看来，让它们做你想做的事情似乎部分没有得到解答。
+Well, you have to assume that the current hallucination problems become less as the technology gets better and so forth. I'm not suggesting it goes away.
+好吧，你必须假设，随着技术的进步等等，当前的幻觉问题会变得越来越少。 我并不是建议它消失。
+
+And then you also have to assume that there are tests for efficacy. So there has to be a way of knowing that the things exceeded. So in the example that I gave of the TikTok competitor, and by the way, I was not arguing that you should illegally steal everybody's music.
+然后你还必须假设有功效测试。 所以必须有一种方法来知道事情是否超出了。 因此，在我举的 TikTok 竞争对手的例子中，顺便说一句，我并不是说你应该非法窃取每个人的音乐。
+What you would do if you're a Silicon Valley entrepreneur, which hopefully all of you will be, is if it took off, then you'd hire a whole bunch of lawyers to go clean the mess up, right? But if nobody uses your product, it doesn't matter that you stole all the content.
+如果你是一名硅谷企业家（希望你们所有人都会如此），你会做的是，如果它起飞了，那么你会聘请一大群律师来收拾残局，对吧？ 但如果没有人使用你的产品，那么你窃取了所有内容也没关系。
+
+And do not quote me. Right. Right. You're on camera. Yeah, that's right.
+并且不要引用我的话。正确的。正确的。你在镜头前。是的，没错。
+
+But you see my point. In other words, Silicon Valley will run these tests and clean up the mess. And that's typically how those things are done.
+但你明白我的意思。 换句话说，硅谷将进行这些测试并清理混乱。 这些事情通常就是这样完成的。
+So my own view is that you'll see more and more performative systems with even better tests and eventually adversarial tests, and that will keep it within a box. The technical term is called chain of thought reasoning.
+所以我自己的观点是，你会看到越来越多的高性能系统，具有更好的测试和最终的对抗性测试，这将把它限制在一个盒子里。 专业术语称为思维链推理。
+
+And people believe that in the next few years, you'll be able to generate a thousand steps of chain of thought reasoning, right? Do this, do this. It's like building recipes, right?
+人们相信，在接下来的几年里，你将能够产生一千个步骤的思维推理链，对吗？ 做这个，做这个。 这就像制作食谱，对吧？
+That the recipes, you can run the recipe and you can actually test that it produced the correct outcome. And that's how the system will work.
+对于配方，您可以运行该配方，并且可以实际测试它是否产生了正确的结果。 这就是系统的运作方式。
+
+Yes, sir? [inaudible] In general, you seem super positive about the potential for AI's problems. I'm curious, like, what do you think is going to drive that? Is it just more compute? Is it more data?
+是吗，先生？ [听不清] 总的来说，您似乎对人工智能问题的潜力非常乐观。我很好奇，你认为是什么推动了这一点？只是更多的计算吗？是更多的数据吗？
+
+Is it fundamental or actual shifts? Yes. Do you agree? The amounts of money being thrown around are mind-boggling. And I've chosen, I essentially invest in everything because I can't figure out who's going to win.
+这是根本性的还是实际的转变？是的。你同意？被扔掉的钱财数量令人难以置信。我选择了，我基本上投资了一切，因为我不知道谁会赢。
+
+And the amounts of money that are following me are so large. I think some of it is because the early money has been made and the big money people who don't know what they're doing have to have an AI component.
+而且追随我的资金数额如此之​​大。 我认为部分原因是早期的钱已经赚到了，而那些不知道自己在做什么的大钱人必须拥有人工智能组件。
+And everything is now an AI investment, so they can't tell the difference. I define AI as learning systems, systems that actually learn. So I think that's one of them.
+现在一切都是人工智能投资，所以他们无法区分。 我将人工智能定义为学习系统，真正学习的系统。 所以我认为这就是其中之一。
+
+The second is that there are very sophisticated new algorithms that are sort of post-transformers. My friend, my collaborator, for a long time has invented a new non-transformer architecture. There's a group that I'm funding in Paris that has claims to have done the same thing.
+第二个是有非常复杂的新算法，有点像后变压器。 我的朋友，我的合作者，长期以来发明了一种新的非变压器架构。 我在巴黎资助的一个团体声称也做了同样的事情。
+There's enormous invention there, a lot of things at Stanford. And the final thing is that there is a belief in the market that the invention of intelligence has infinite return.
+那里有巨大的发明，斯坦福大学有很多东西。 最后一点是，市场有一种信念，认为智能的发明会带来无限的回报。
+
+So let's say you put $50 billion of capital into a company, you have to make an awful lot of money from intelligence to pay that back. So it's probably the case that we'll go through some huge investment bubble, and then it'll sort itself out.
+假设你向一家公司投入了 500 亿美元的资金，你必须从情报中赚到大量的钱才能偿还。 因此，我们可能会经历一些巨大的投资泡沫，然后它会自行解决。
+That's always been true in the past, and it's likely to be true here. And what you said earlier was you think that the leaders are pulling away from the rest. Right now.
+这在过去一直是正确的，现在也可能是正确的。 你之前所说的是，你认为领导人正在远离其他人。 现在。
+
+And the question is roughly the following. There's a company called Mistral in France. They've done a really good job. And I'm obviously an investor. They have produced their second version.
+问题大致如下。法国有一家公司叫Mistral。他们做得非常好。我显然是一个投资者。他们已经制作了第二个版本。
+
+Their third model is likely to be closed because it's so expensive, they need revenue, and they can't give their model away. So this open source versus closed source debate in our industry is huge.
+他们的第三个模型很可能会被关闭，因为它太贵了，他们需要收入，而且他们不能放弃他们的模型。 因此，我们行业中开源与闭源的争论非常激烈。
+And my entire career was based on people being willing to share software in open source. Everything about me is open source. Much of Google's underpinnings were open source.
+我的整个职业生涯都建立在人们愿意分享开源软件的基础上。 关于我的一切都是开源的。 谷歌的大部分基础都是开源的。
+
+Everything I've done technically. And yet, it may be that the capital costs, which are so immense, fundamentally changes how software is built. You and I were talking. My own view of software programmers is that software programmers' productivity will at least double.
+我所做的一切都是技术性的。 然而，巨大的资本成本可能会从根本上改变软件的构建方式。 你和我正在说话。 我自己对软件程序员的看法是，软件程序员的生产力至少会翻倍。
+There are three or four software companies that are trying to do that.
+有三四家软件公司正在尝试这样做。
+
+I've invested in all of them in the spirit. And they're all trying to make software programmers more productive. The most interesting one that I just met with is called Augment. And I always think of an individual programmer. And they said, that's not our target.
+我全都投入了精神。他们都在努力提高软件程序员的工作效率。我刚刚遇到的最有趣的一个叫做“增强”。我总是想到个体程序员。他们说，那不是我们的目标。
+
+Our target are these 100 person software programming teams on millions of lines of code where nobody knows what's going on. Well, that's a really good AI thing. Will they make money? I hope so. So a lot of questions here.
+我们的目标是由 100 人组成的软件编程团队，编写数百万行代码，但没人知道发生了什么。嗯，这确实是一个很好的人工智能技术。他们会赚钱吗？我希望如此。所以这里有很多问题。
+
+Hi. So at the very beginning you mentioned that there's the combination of the context window expansion. The agents and the text to action is going to have unimaginable impacts. First of all, why is the combination important?
+你好。 所以一开始你就提到了上下文窗口扩展的结合。 代理人和行动文本将产生难以想象的影响。 首先，为什么组合很重要？
+And second of all, I know that you're not like a crystal ball and you can't necessarily tell the future.
+其次，我知道你不像水晶球，你不一定能预测未来。
+
+But why do you think it's beyond anything that we could imagine? I think largely because the context window allows you to solve the problem of recency.
+但为什么你认为这超出了我们的想象呢？ 我认为很大程度上是因为上下文窗口可以让你解决新近度问题。
+The current models take a year to train roughly 18 months, six months of preparation, six months of training, six months of fine tuning. So they're always out of date. Context window, you can feed what happened.
+目前的模型需要一年的时间来训练大约18个月，六个月的准备，六个月的训练，六个月的微调。 所以它们总是过时的。 上下文窗口，您可以提供发生的情况。
+
+You can ask it questions about the Hamas Israel war in a context. That's very powerful. It becomes current like Google. In the case of agents, I'll give you an example. I set up a foundation which is funding a nonprofit.
+您可以在上下文中询问有关哈马斯以色列战争的问题。那是非常强大的。它像谷歌一样变得流行。就代理而言，我举个例子。我成立了一个基金会，为非营利组织提供资金。
+
+I don't know if there's chemists in the room. I don't really understand chemistry. There's a tool called ChemCrow, C-R-O-W, which was an LLM-based system that learned chemistry.
+我不知道房间里是否有药剂师。 我实在不懂化学。 有一个工具叫ChemCrow，CROW，它是一个LLM基于学习化学的系统。
+And what they do is they run it to generate chemistry hypotheses about proteins and they have a lab which runs the tests overnight and then it learns. That's a huge acceleration, accelerant in chemistry, material science and so forth.
+他们所做的就是运行它来生成有关蛋白质的化学假设，他们有一个实验室可以连夜运行测试，然后进行学习。 这是化学、材料科学等领域的巨大加速和促进剂。
+
+So that's an agent model. And I think the text to action can be understood by just having a lot of cheap programmers, right? And I don't think we understand what happens, and this is again your area of expertise, what happens when everyone has their own programmer.
+这就是代理模式。 我认为只要有很多廉价的程序员就可以理解文本到行动，对吗？ 我认为我们不明白会发生什么，这又是你的专业领域，当每个人都有自己的程序员时会发生什么。
+And I'm not talking about turning on and off the lights. I imagine, another example, for some reason you don't like Google.
+我不是在谈论打开和关闭灯。 我想，另一个例子，由于某种原因你不喜欢谷歌。
+
+So you say, "Build me a Google competitor." Yeah, you personally, you don't build me a Google competitor. "Search the web. Build a UI. Make a good copy. Add generative AI in an interesting way.
+所以你说，“让我成为谷歌的竞争对手。”是的，就你个人而言，你并没有把我打造为谷歌的竞争对手。 “搜索网络。构建 UI。制作一个好的副本。以有趣的方式添加生成人工智能。
+
+Do it in 30 seconds and see if it works." Right? So a lot of people believe that the incumbents, including Google, are vulnerable to this kind of an attack. Now, we'll see. There were a bunch of questions who were sent over by Slatter. I want to get some of them were upvoted.
+在 30 秒内完成，看看它是否有效。”对吗？所以很多人认为，包括 Google 在内的现有企业很容易受到这种攻击。现在，我们拭目以待。有很多问题是谁提出的？是由 Slatter 发送过来的，我想让其中一些得到赞成。
+
+So here's one. We talked a little bit of this last year. How can we stop AI from influencing public opinion, misinformation, especially during the upcoming election? What are the short and long-term solutions for them?
+所以这是一个。 去年我们谈过一些这个问题。 我们如何才能阻止人工智能影响公众舆论、错误信息，特别是在即将到来的选举期间？ 他们的短期和长期解决方案是什么？
+Most of the misinformation in this upcoming election and globally will be on social media.
+即将到来的选举和全球范围内的大多数错误信息都将出现在社交媒体上。
+
+And the social media companies are not organized well enough to police it. If you look at TikTok, for example, there are lots of accusations that TikTok is favoring one kind of misinformation over another.
+而且社交媒体公司的组织不够完善，无法对其进行监管。 例如，如果你看看 TikTok，就会发现很多人指责 TikTok 偏爱一种错误信息而不是另一种错误信息。
+And there are many people who claim without proof, that I'm aware of, that the Chinese are forcing them to do it. I think we have a mess here. And the country's going to have to learn critical thinking.
+据我所知，有很多人在没有证据的情况下声称中国人强迫他们这样做。 我认为我们这里一团糟。 这个国家必须学习批判性思维。
+
+That may be an impossible challenge for the U.S. But the fact that somebody told you something does not mean that it's true. Could it go too far the other way? That there's things that really are true and nobody believes anymore.
+这对美国来说可能是一个不可能完成的挑战 但某人告诉你某事这一事实并不意味着它是真的。 反之亦然会不会走得太远？ 有些事情确实是真的，但没有人再相信了。
+You get some people call it a "pestimological crisis" that now, you know, Elon says, "No, I never did that.
+有些人称之为“瘟疫危机”，现在，你知道，埃隆说，“不，我从来没有这样做过。
+
+Prove it." Oh, let's use Donald Trump. Look, I think we have a trust problem in our society. Democracies can fail. And I think that the greatest threat to democracy is misinformation because we're going to get really good at it.
+证明一下。”哦，让我们用唐纳德·特朗普吧。 听着，我认为我们的社会存在信任问题。 民主国家可能会失败。 我认为对民主的最大威胁是错误信息，因为我们将真正擅长于此。
+When I managed YouTube, the biggest problems we had on YouTube were that people would upload false videos and people would die as a result.
+当我管理 YouTube 时，我们在 YouTube 上遇到的最大问题是人们上传虚假视频，结果导致人们死亡。
+
+And we had a no-death policy. Shocking. And it was just horrendous to try to address this. And this is before generative A.I. I don't have a good answer.
+我们有不死亡政策。令人震惊。试图解决这个问题真是太可怕了。在生成人工智能之前我没有一个好的答案。
+
+One technical is not an answer, but one thing that seems like it could mitigate that I understand why it's more widely used is public key authentication. That when Joe Biden speaks, why isn't it digitally signed like SSL is?
+一项技术并不能解决问题，但有一件事似乎可以减轻我理解为什么它被更广泛使用的原因是公钥身份验证。 当乔·拜登讲话时，为什么不像 SSL 那样进行数字签名？
+Or that celebrities or public figures or others, couldn't they have a public key? Yeah, it's a form of public key and then some form of certainty of knowing how the system When I send my credit card to Amazon, I know it's Amazon.
+或者名人​​或公众人物或其他人，他们不能有公钥吗？ 是的，这是一种公钥形式，然后是某种形式的确定性，可以了解系统如何当我将信用卡发送到亚马逊时，我知道它是亚马逊。
+I wrote a paper and published it with Jonathan Haidt, who's the one working on the anxiety generation stuff.
+我写了一篇论文并与乔纳森·海特（Jonathan Haidt）一起发表，他是研究焦虑产生问题的人。
+
+It had exactly zero impact. And he's a very good communicator. I probably am not. So my conclusion was that the system is not organized to do what you said. You had a paper advocating what we did?
+它的影响完全为零。他是一个非常好的沟通者。我可能不是。所以我的结论是，这个系统并没有按照你所说的那样组织起来。你有一篇论文提倡我们所做的事情吗？
+
+Advocating your proposal. Okay, my proposal. No, what you said. Yeah, right. And my conclusion is the CEOs in general are maximizing revenue.
+提倡你的建议。好吧，我的建议。不，你说的。是的，对。我的结论是，首席执行官们总体上正在实现收入最大化。
+
+To maximize revenue, you maximize engagement. To maximize engagement, you maximize outrage. The algorithms choose outrage because that generates more revenue. Therefore, there's a bias to favor crazy stuff. And on all sides, I'm not making a partisan statement here.
+为了最大化收入，您需要最大化参与度。为了最大限度地提高参与度，你就最大限度地提高了愤怒。算法选择愤怒是因为这会产生更多收入。因此，人们偏爱疯狂的东西。从各方面来看，我并不是在这里发表党派声明。
+
+That's a problem. That's got to get addressed in a democracy. And my solution to TikTok, we talked about this earlier privately, is there was when I was a boy, there was something called the equal time rule, because TikTok is really not social media.
+这是一个问题。 这个问题必须在民主国家得到解决。 我对 TikTok 的解决方案，我们之前私下讨论过，当我还是个男孩的时候，有一个叫做平等时间规则的东西，因为 TikTok 真的不是社交媒体。
+It's really television, right? There's a programmer making you the numbers by the way are 90 minutes a day, 200 TikTok videos per TikTok user in the United States.
+这真的是电视剧，对吧？ 顺便说一句，有个程序员给你算了个数字：美国每个 TikTok 用户每天播放 90 分钟，每个 TikTok 视频有 200 个。
+
+It's a lot, right? So and the government is not going to do the equal time rule, but it's the right thing to do. Some form of balance that is required. All right, let's take some more questions. Two quick questions.
+很多，对吧？因此，政府不会实行平等时间规则，但这是正确的做法。需要某种形式的平衡。好吧，让我们再问一些问题。两个简单的问题。
+
+One, economic impact of LMs. Slower, like, market impacts. Slower. You originally anticipated CHEG and a couple of service people. And then two, do you think academia deserves or should get AI subsidies?
+一、LM 的经济影响。市场影响较慢。慢点。您原本预计会有 CHEG 和几个服务人员。第二个问题，您认为学术界值得或应该获得人工智能补贴吗？
+
+Or do you think they should just partner with big players out there? I pushed really, really hard on getting data centers for universities.
+或者您认为他们应该与那里的大公司合作？ 我非常非常努力地推动为大学建立数据中心。
+If I were a faculty member in the computer science department here, I would be beyond upset that I can't build the algorithms with my graduate students that will do the kind of PhD research. And I'm forced to work with these.
+如果我是这里计算机科学系的一名教员，我会非常沮丧，因为我无法与我的研究生一起构建将进行博士研究的算法。 我被迫与这些一起工作。
+And the companies have not, in my view, been generous enough with respect to that.
+在我看来，这些公司在这方面还不够慷慨。
+
+The faculty members that I talk with, many of whom you know, spend lots of time waiting for their credits from Google Cloud. That's terrible. This is an explosion we want America to win. We want American universities.
+与我交谈过的教职员工（其中许多是您认识的人）花费大量时间等待 Google Cloud 提供的学分。 太可怕了。 这是我们希望美国赢得胜利的一次爆炸。 我们想要美国大学。
+There's lots of reasons to think that the right thing to do is to get it to them.
+有很多理由认为正确的做法是将其交给他们。
+
+So I'm working hard on that. And your first question was labor market impact. I'll defer to the real expert here.
+所以我正在为此努力。 你的第一个问题是劳动力市场的影响。 我会在这里听取真正的专家的意见。
+As your amateur economist taught by Eric, I fundamentally believe that the college education high skills task will be fine because people will work with these systems. I think the systems is no different from any other technology wave.
+正如埃里克（Eric）教授的业余经济学家一样，我从根本上相信大学教育高技能任务会很好，因为人们会使用这些系统。 我认为这些系统与任何其他技术浪潮没有什么不同。
+
+The dangerous jobs and the jobs which require very little human judgment will get replaced. We've got about five minutes left. So let's go really quick with some quick. I'll let you pick them, Eric. Yes, ma'am.
+危险的工作和几乎不需要人类判断的工作将被取代。我们还有大约五分钟的时间。所以让我们快点来吧。我会让你选择它们，埃里克。是的，女士。
+
+Hi. I'm really curious about the text to action and its impact on, for example, computer science education. I'm wondering what you have thoughts on how CS education should transform to meet the age.
+你好。 我真的很好奇文本到行动及其对计算机科学教育等的影响。 我想知道您对于CS教育应该如何转型以适应时代的想法有何想法？
+Well, I'm assuming that computer scientists as a group in undergraduate school will always have a programmer buddy with them. So when you learn your first for loop and so forth and so on, you'll have a tool that will be your natural partner.
+好吧，我假设本科生中的计算机科学家作为一个群体总会有一个程序员伙伴。 因此，当您学习第一个 for 循环等时，您将拥有一个成为您天然伙伴的工具。
+
+And that's how the teaching will go on. That the professor, he or she will talk about the concepts, but you'll engage with it that way. And that's my guess. Yes, ma'am, behind you. Yeah.
+这就是教学的方式。教授，他或她会谈论这些概念，但你会以这种方式参与其中。这就是我的猜测。是的，女士，在您后面。是的。
+
+You're talking more about the non-transformer architectures that you're excited about. I think one that's been talked about is like state models, but then now a longer context class. I'm more so curious what you're seeing in this case. I don't understand the math well enough.
+您更多地谈论了您感兴趣的非变压器架构。 我认为已经讨论过的一个类似于状态模型，但现在是一个更长的上下文类。 我更好奇你在这个案例中看到了什么。 我对数学的理解不够好。
+I'm really pleased that we have produced jobs for mathematicians because the math here is so complicated, but basically they are different ways of doing gradient descent, matrix multiply, faster and better.
+我真的很高兴我们为数学家创造了就业机会，因为这里的数学非常复杂，但基本上它们是进行梯度下降、矩阵乘法的不同方法，更快更好。
+
+And transformers, as you know, is a sort of systematic way of multiplying at the same time. That's the way I think about it. And it's similar to that, but different math. Let's see, over here. Yes, sir.
+正如你所知，变形金刚是一种同时繁殖的系统方式。我就是这么想的。它与此类似，但数学不同。让我们看看，在这里。是的，先生。
+
+Go ahead. You mentioned in your paper on natural security that you have China and the U.S. and the help of modern architectures today. The next 10 and the next cluster down are all other U.S. allies or teed up nicely through the U.S.
+前进。您在关于自然安全的论文中提到，今天有中国和美国以及现代建筑的帮助。接下来的 10 个和下一个集群都是美国的其他盟友，或者通过美国很好地做好了准备
+
+allies. I'm curious what your take is on those 10 and the middle that aren't formally allies. How likely are they to get on board with securing our security deadline and what would hold them back from wanting to get on board?
+盟国。 我很好奇你对那些不是正式盟友的十个国家和中间国家有何看法。 他们参与确保我们的安全期限的可能性有多大？什么会阻止他们参与？
+The most interesting country is India because the top AI people come from India to the U.S. and we should let India keep some of its top talent.
+最有趣的国家是印度，因为顶尖的人工智能人才来自印度到美国 我们应该让印度保留一些顶尖人才。
+
+Not all of them, but some of them. And they don't have the kind of training facilities and programs that we so richly have here. To me, India is the big swing state in that regard. China's lost. It's not going to come back.
+不是全部，而是其中一些。他们没有我们这里丰富的培训设施和项目。对我来说，印度是这方面的重要摇摆国家。中国输了。它不会再回来了。
+
+They're not going to change the regime as much as people wish them to do. Japan and Korea are clearly in our camp. Taiwan is a fantastic country whose software is terrible, so that's not going to work. Amazing hardware.
+他们不会像人们希望的那样改变政权。 日本和韩国显然属于我们阵营。 台湾是一个很棒的国家，但它的软件很糟糕，所以这是行不通的。 令人惊叹的硬件。
+And in the rest of the world, there are not a lot of other good choices that are big.
+而在世界其他地方，没有很多其他好的大选择。
+
+Europe is screwed up because of Brussels. It's not a new fact. I spent 10 years fighting them. And I worked really hard to get them to fix the EU act and they still have all the restrictions that make it very difficult to do our kind of research in Europe.
+欧洲因为布鲁塞尔而搞砸了。 这并不是什么新事实。 我花了10年时间与他们战斗。 我非常努力地让他们修改欧盟法案，但他们仍然受到所有限制，使我们在欧洲进行此类研究变得非常困难。
+My French friends have spent all their time battling Brussels and Macron, who's a personal friend, is fighting hard for this.
+我的法国朋友们一直在与布鲁塞尔作斗争，而作为我的私人朋友的马克龙正在为此努力奋斗。
+
+And so France, I think, has a chance. I don't see Germany coming and the rest is not big enough. Go ahead. Yes, ma'am. So I learned you're an engineer by training, like you call the compiler.
+所以我认为法国有机会。我不认为德国会到来，而且其他国家也不够大。前进。是的，女士。所以我了解到你是一名经过培训的工程师，就像你所说的编译器一样。
+
+Given the capabilities that you envision these models having, should we still spend time learning to code? Because ultimately, it's the old thing of why do you study English if you can speak English? You get better at it.
+考虑到您设想的这些模型具有的功能，我们是否还应该花时间学习编码？ 因为归根结底，这是老生常谈的问题：如果你会说英语，为什么还要学英语？ 你会变得更好。
+You really do need to understand how these systems work, and I feel very strongly. Yes, sir.
+你确实需要了解这些系统是如何工作的，我的感觉非常强烈。 是的，先生。
+
+Yeah. I'm curious if you've explored the distributed setting and I'm asking because, sure, like making a large cluster is difficult, but MacBooks are powerful. There's a lot of small machines across the world.
+是的。 我很好奇您是否探索过分布式设置，我之所以这么问是因为，当然，创建一个大型集群很困难，但 MacBook 很强大。 世界各地有很多小型机器。
+So do you think like folding at home or a similar idea works for training? It does not.
+那么你认为在家折叠或者类似的想法适用于训练吗？ 事实并非如此。
+
+Yeah, we've looked very hard at this. So the way the algorithms work is you have a very large matrix and you have essentially a multiplication function. So think of it as going back and forth and back and forth.
+是的，我们已经非常努力地研究过这一点。 所以算法的工作方式是你有一个非常大的矩阵，并且本质上有一个乘法函数。 因此，可以将其视为来回、来回。
+And these systems are completely limited by the speed of memory to CPU or GPU. And in fact, the next iteration of Nvidia chips has combined all those functions into one chip.
+而且这些系统完全受到内存到CPU或GPU的速度的限制。 事实上，下一代 Nvidia 芯片已将所有这些功能合并到一个芯片中。
+
+The chips are now so big that they glue them all together. And in fact, the package is so sensitive that the package is put together in a clean room as well as the chip itself.
+现在芯片太大了，它们都粘在一起了。 事实上，封装非常敏感，以至于封装和芯片本身都在洁净室中组装在一起。
+So the answer looks like supercomputers and speed of light, especially memory interconnect, really dominate it. So I think unlikely for a while. Is there a way to segment the LLM?
+所以答案看起来是超级计算机和光速，尤其是内存互连，真正占据主导地位。 所以我认为暂时不太可能。 有没有办法分段LLM？
+
+So Jeff Dean, last year when he spoke here, talked about having these different parts of it that you would train separately and then kind of federate. In order to do that, you'd have to have 10 million such things and then the way you would ask the questions would be too slow.
+所以杰夫·迪恩（Jeff Dean）去年在这里演讲时谈到了将其中的这些不同部分分开训练，然后进行联合训练。 为了做到这一点，你必须拥有 1000 万个这样的东西，然后你提出问题的方式就会太慢。
+He's talking about eight or 10 or 12 supercomputers. Yeah, yeah. So not at the level of MacBooks.
+他说的是 8 台、10 台或 12 台超级计算机。 是啊是啊。 所以还达不到 MacBook 的水平。
+
+Not at his level. Yeah. Let's see, in the back. Yes, way back. So I know after GQQ was released in the New York Times to open it up for using their works for training, where do you think that's going to go and what that means for data processing?
+还没有达到他的水平。是的。让我们看看，在后面。是的，很早以前。所以我知道《纽约时报》发布GQQ并开放使用他们的作品进行训练之后，您认为这将走向何方？这对数据处理意味着什么？
+
+I used to do a lot of work on the music licensing stuff. What I learned was that in the 60s, there was a series of lawsuits that resulted in an agreement where you get a stipulated royalty whenever your song is played. Even they don't even know who you are.
+我曾经在音乐许可方面做了很多工作。 我了解到，在 60 年代，发生了一系列诉讼，最终达成了一项协议，只要播放你的歌曲，你就可以获得规定的版税。 就连他们也不知道你是谁。
+It's just paid into a bank. And my guess is it'll be the same thing.
+刚刚存入银行。 我的猜测是，这将会是同样的事情。
+
+There'll be lots of lawsuits and there'll be some kind of stipulated agreement, which will just say you have to pay X percent of whatever revenue you have in order to use ASCAP BMI. ASCAP BMI. Look them up. It's along.
+将会有很多诉讼，并且会有某种规定的协议，它只会说你必须支付你所拥有的任何收入的 X% 才能使用 ASCAP BMI。 ASCAP 体重指数。 查找它们。 就这样一起来了
+It will seem very old to you, but I think that's how it will alternate.
+对你来说，它会显得很老，但我认为这就是它的交替方式。
+
+Yes, sir. Yeah, it seems like there's a few players that are dominating AI, right? And they'll continue to dominate. And they seem to overlap with the large companies that all the antitrust regulation is kind of focused on. How do you see those two trends kind of...
+是的，先生。是啊，似乎有几个玩家在主导AI，对吧？他们将继续占据主导地位。它们似乎与所有反垄断监管所关注的大公司有重叠。您如何看待这两种趋势...
+
+Yeah, do you see regulators breaking up these companies and how will that affect the... Yeah. So in my career, I helped Microsoft get broken up and it wasn't broken up. And I fought for Google to not be broken up and it's not been broken up.
+是的，您是否看到监管机构拆分这些公司？这将如何影响...... 是的。 所以在我的职业生涯中，我帮助微软分拆了，但它并没有分拆。 我为谷歌不被分拆而奋斗，它也没有被分拆。
+So it sure looks to me like the trend is not to be broken up.
+所以在我看来，这种趋势确实不会被打破。
+
+As long as the companies avoid being John D. Rockefeller the senior. And I studied this. Look it up. That's how antitrust law came.
+只要公司避免成为老约翰·D·洛克菲勒。我研究了这个。查一下。反垄断法就是这样诞生的。
+
+I don't think the governments will act... The reason you're seeing these large companies dominate is who has the capital to build these data centers, right? So my friend Reed and my friend Mustapha... He's coming next week, two weeks from now.
+我认为政府不会采取行动... 你看到这些大公司占据主导地位的原因是谁有资本建造这些数据中心，对吗？ 所以我的朋友里德和我的朋友穆斯塔法... 他下周就要来，也就是两周后。
+Have Reed talk to you about the decision that they made to take inflection and essentially piece part it into Microsoft.
+请里德与您谈谈他们做出的改变并从本质上将其一部分并入微软的决定。
+
+Basically, they decided they couldn't raise the tens of billions of dollars. Is that number public that you mentioned earlier? No. Have Reed give you the number. Maybe Reed can say it.
+基本上，他们决定无法筹集数百亿美元。您之前提到的那个号码是公开的吗？不，让里德给你号码。或许里德可以这么说。
+
+I know you got to go. I don't want to hold you back. I want to leave with... Shall we do one? This gentleman.
+我知道你得走了。我不想阻止你。我想和...一起离开，我们可以做一个吗？这位先生。
+
+I also have a question for you. One more. Yeah, go ahead. Thank you so much. I was wondering where all of this is going to lead countries who are non-participants in development of frontier models and access to compute, for example.
+我还有一个问题想问你。再来一张。是的，继续吧。太感谢了。例如，我想知道所有这一切将把那些未参与前沿模型开发和计算获取的国家带向何方。
+
+The rich get richer and the poor do the best they can. They'll have to... The fact of the matter is this is a rich country's game, right? Huge capital, lots of technically strong people, strong government support, right? There are two examples.
+富人愈富，穷人则尽其所能。他们必须...事实是这是一个富裕国家的游戏，对吗？资金雄厚，技术力量雄厚，政府大力支持，对吗？有两个例子。
+
+There are lots of other countries that have all sorts of problems. They don't have those resources. They'll have to find a partner. They'll have to join with somebody else, something like that. I want to leave it...
+还有很多其他国家也存在各种各样的问题。他们没有这些资源。他们必须找到一个合作伙伴。他们必须与其他人一起加入，诸如此类。我想留下它...
+
+Because I think the last time we met you, you were at a hackathon at AGI House and I know you spend a lot of time helping young people as they create a lot of wealth, and you spoke very passionately about wanting to do that.
+因为我想我们上次见到你时，你正在 AGI House 参加一场黑客马拉松，我知道你花了很多时间帮助年轻人创造大量财富，而且你非常热情地谈到想要这样做。
+Do you have any advice for folks here as they're building their... They're writing their business plans for this class or policy proposals or research proposals at this stage of the careers going forward?
+当这里的人们正在建造他们的……时，你有什么建议吗？ 他们正在为这门课写商业计划，或者在职业发展的这个阶段写政策提案或研究提案吗？
+Well, I teach a class in the business school on this, so you should come to my class. I am struck by the speed with which you can build demonstrations of new ideas.
+嗯，我在商学院教过这方面的课程，所以你应该来听我的课。 我对你展示新想法的速度感到震惊。
+
+So, in one of the hackathons I did, the winning team, the command was, "Fly the drone between two towers," and it was given a virtual drone space.
+因此，在我参加的一场黑客马拉松中，获胜团队的命令是“在两座塔之间飞行无人机”，并为其提供了一个虚拟的无人机空间。
+And it figured out how to fly the drone, what the word between meant, generated the code in Python, and flew the drone in the simulator through the tower. It would have taken a week or two from good professional programmers to do that.
+它弄清楚了如何驾驶无人机，以及之间的单词的含义，用 Python 生成代码，并让模拟器中的无人机飞过塔楼。 优秀的专业程序员可能需要一两周的时间才能做到这一点。
+I'm telling you that the ability to prototype quickly... Part of the problem with being an entrepreneur is everything happens faster.
+我告诉你快速制作原型的能力...... 作为一名企业家的部分问题是一切都发生得更快。
+
+Well, now, if you can't get your prototype built in a day using these various tools, you need to think about that, right? Because that's who your competitor is doing. So, I guess my biggest advice is when you start thinking about a company, it's fine to write a business plan.
+好吧，现在，如果您无法使用这些不同的工具在一天内构建原型，那么您需要考虑一下，对吧？ 因为这就是你的竞争对手正在做的事情。 所以，我想我最大的建议是，当你开始考虑一家公司时，写一份商业计划就可以了。
+In fact, you should ask the computer to write your business plan for you, as long as it's legal. No, no.
+事实上，你应该让计算机为你写出你的商业计划，只要它是合法的。 不，不。
+
+Actually, I should talk about that after you leave this.
+事实上，我应该在你离开之后再谈这个。
+But I think it's very important to prototype your idea using these tools as quickly as you can, because you can be sure there's another person doing exactly that same thing in another company, in another university, in a place that you've never been. All right.
+但我认为尽快使用这些工具来原型化你的想法非常重要，因为你可以确定另一个人在另一家公司、另一所大学、在你从未去过的地方做着完全相同的事情。 好的。
+Well, thanks very much, Aaron. Thank you all.
+嗯，非常感谢，亚伦。 谢谢大家。
+
+I'm going to rush off. Thank you. So, actually, let me pick up on that very last point, because I don't think I talked about in the first class about using LLMs, which is welcome in this class for the assignments, but it has to get to your full disclosure.
+我要赶紧走了。 谢谢。 所以，实际上，让我继续讨论最后一点，因为我认为我在第一堂课中没有讨论过使用LLMs，这在本堂课的作业中是受欢迎的，但它必须让你充分披露。
+So, when you use them, whether it's for the weekly assignments or for the final project or whatever, just like you would if you asked your friendly uncle or a classmate or anybody else to give you advice, you should do that, or if you have notes that you include in there.
+所以，当你使用它们时，无论是每周作业还是期末项目或其他什么，就像你要求你友好的叔叔或同学或任何其他人给你建议一样，你应该这样做，或者如果你有您在其中包含的注释。
+So, what I thought I'd do is I want to talk a little bit about AIs as a GPT and what that means in terms of business and implications.
+所以，我想做的就是谈谈人工智能作为 GPT 的情况，以及它对业务和影响的意义。
+
+But before we do that, I just want to see if there are any questions you want to pick up on things that Eric brought up that I'll try and channel some of his thoughts, and we can talk about the things that came up, and then we can move on. Yeah, go ahead.
+但在我们这样做之前，我只是想看看您是否想了解埃里克提出的问题，我会尝试传达他的一些想法，我们可以讨论出现的问题，然后我们就可以继续前进了。 是的，继续吧。
+One of the questions I want to ask is in relation to regulation, if the goal is to maintain supremacy, how do you create the right incentives so that everyone, allies and non-allies, are motivated to follow it? You mean among companies that are competing with each other?
+我想问的问题之一是关于监管，如果目标是维持霸权，如何创造正确的激励措施，让每个人，无论盟友还是非盟友，都有动力去遵守？ 您是指相互竞争的公司之间吗？
+Companies are in countries, the U.S.
+公司位于美国
+
+and the EU, and it doesn't just become sort of a hamper or obstruct kind of development for the ones that choose to follow the regulations? It's super tricky.
+对于那些选择遵守法规的国家来说，这是否会成为某种阻碍或障碍？ 这非常棘手。
+There's a book, Co-Opetition, that Mary Nailbough wrote about this, because there are definitely places where regulation can help companies and help an industry survive. So regulation doesn't necessarily slow things.
+玛丽·奈尔博（Mary Nailbough）写了一本书，《合作竞争》（Co-Opetition），讨论了这一点，因为监管肯定可以在某些地方帮助公司和行业生存。 因此，监管并不一定会减缓事情的发展。
+I mean, standards are a good example, and having that clarified can make it easier for companies to compete.
+我的意思是，标准就是一个很好的例子，明确这一点可以使公司更容易竞争。
+
+So I've talked to a lot of the executives of these companies, and there are places where they wish there were some common standards, and sometimes there's a bit of a race to the bottom as well on some of the dangerous things.
+因此，我与这些公司的很多高管进行了交谈，他们希望在某些地方有一些共同的标准，有时在一些危险的事情上也会出现一些逐底竞争。
+One of the other reasons that the folks at Google say that they didn't move as fast is they felt like these LMs could be misused or dangerous, but their hand was sort of forced.
+谷歌人员表示，他们没有那么快采取行动的另一个原因是，他们觉得这些 LM 可能会被滥用或危险，但他们的手有点被迫。
+I was talking to some folks at one of the other big companies, and they said, "We weren't going to release this feature, but now competitors are doing it, so we're going to have to release it as well." So this is where regulation, there might be some interest in coordinating on regulation, but it's also, obviously, the more obvious thing is that it is used to hinder competition, and a lot of people, for instance, think that the reasons that some of the big companies are very opposed to some of the open source and making things more widely open source is they want to slow down competitors.
+我与其他大公司的一些人交谈，他们说：“我们本来不打算发布此功能，但现在竞争对手正在这样做，所以我们也必须发布它。”因此，这就是监管，可能有人对协调监管感兴趣，但显然，更明显的事情是它被用来阻碍竞争，例如，很多人认为某些原因的大公司非常反对一些开源，让事情更广泛地开源是他们想要减缓竞争对手的速度。
+So there's both of those things going on. Yeah.
+所以这两件事都在发生。 是的。
+
+Quick question over there. I just want to follow up on a comment about, should we still learn to code? Should we still study English? Are those going to be useful?
+那边的问题很快。 我只是想跟进有关“我们还应该学习编码吗？”的评论。 我们还应该学习英语吗？ 那些会有用吗？
+And Eric's replied, yes, like college-educated, high-skilled jobs or tasks are still going to be safe, but everything else that's going to require image editing might not be.
+埃里克回答说，是的，像受过大学教育的高技能工作或任务仍然是安全的，但其他所有需要图像编辑的事情可能就不安全了。
+
+That's kind of like an interesting one. Maybe we'll talk some more about that in a few minutes, but it is interesting to think about where the AI systems just replace what people are doing versus they complement them.
+这有点像一个有趣的事情。 也许几分钟后我们会更多地讨论这个问题，但思考人工智能系统只是取代人们正在做的事情而不是补充人们正在做的事情是很有趣的。
+And in coding right now, it appears that they're not actually that helpful for the really best coders. They're very helpful for moderately good coders. But if you don't know anything at all about coding, they're not helpful either.
+在现在的编码中，它们似乎对真正最好的编码员实际上并没有多大帮助。 它们对于中等水平的程序员非常有帮助。 但如果你对编码一无所知，它们也没有帮助。
+
+So it's kind of an inverted you. And you can see why that would be the case, that if you don't even understand the code that they generate right now is often buggy or it isn't exactly right.
+所以这是一个颠倒的你。 您可以明白为什么会出现这种情况，如果您甚至不理解它们现在生成的代码通常是有错误的或者不完全正确。
+So if you can't even interpret and understand what's going on, you can't use it very effectively. And for now, the very best coders, it appears that the code that is generated isn't at that level, so you get that U shape.
+因此，如果您甚至无法解释和理解正在发生的事情，您就无法非常有效地使用它。 目前，最好的编码员似乎生成的代码还没有达到那个级别，所以你会得到 U 形。
+But that means if you don't know any code, you do need to have some in order for it to be useful.
+但这意味着如果您不知道任何代码，则确实需要一些代码才能发挥作用。
+
+And I think that's true for a lot of applications right now, that you have to have some basic understanding in order to get the most of it. I think it's an interesting open question if that's always going to be the case.
+我认为现在对于许多应用程序来说都是如此，您必须有一些基本的了解才能充分利用它。 我认为如果情况总是如此，这是一个有趣的悬而未决的问题。
+I put up at the last class very briefly this slide that had level 0 through 5 autonomous cars. And one of the things that actually we can talk about now is I'm trying to sort through is what if you took that paradigm and you applied it to all tasks in the economy?
+我在上一堂课上非常简短地展示了这张幻灯片，其中包含 0 级到 5 级的自动驾驶汽车。 实际上我们现在可以讨论的一件事是我正在尝试解决的是，如果你采用这种范式并将其应用于经济中的所有任务会怎样？
+Like how many would they go through?
+比如他们会经历多少次？
+
+So with autonomous cars, we aren't really at level 5 very much although I don't know how many of you guys have ridden in a Waymo, one of the Waymo cars. So that one seems pretty good, although Sebastian Thrun, who I rode in it with, says it's just incredibly expensive right now.
+因此，对于自动驾驶汽车，我们实际上还没有达到第 5 级，尽管我不知道你们中有多少人乘坐过 Waymo（Waymo 汽车之一）。 所以这辆车看起来相当不错，尽管与我一起乘坐的塞巴斯蒂安·特龙（Sebastian Thrun）说，它现在的价格非常昂贵。
+They probably lose $50 to $100. He doesn't know he's not there. He started the program, but he's not there anymore.
+他们可能损失 50 到 100 美元。 他不知道他不在场。 他启动了这个程序，但他已经不在那里了。
+
+But just all of the costs of running it, it's not practical. Maybe it'll get down the curve. Lidar will get cheaper, but we have a lot of sort of autonomous cars at level 2, 3, even 4, arguably, where humans are still involved. And you see a lot of other tasks like coding.
+但仅考虑运行它的所有成本，这是不切实际的。 也许它会走下坡路。 激光雷达会变得更便宜，但我们有很多 2 级、3 级、甚至 4 级自动驾驶汽车，可以说，人类仍然参与其中。 您还会看到许多其他任务，例如编码。
+I just talked about that.
+我刚刚谈到了这一点。
+
+On the other hand, chess, that slide, the slide before it, I talked about what's sometimes called advanced chess or freestyle chess. When Gary Kasparov, after he lost to Deep Blue in 1998, '97, he started this set of competitions where humans and machines could work together.
+另一方面，国际象棋，那张幻灯片，之前的幻灯片，我谈到了有时被称为高级国际象棋或自由式国际象棋的东西。 当加里·卡斯帕罗夫（Gary Kasparov）在1998年输给深蓝之后，97年，他开始了这一系列人类和机器可以合作的比赛。
+And for a long time, when I gave my TED talk, it was true, my TED talk in 2012, 2013, it was true at that time that a human working with a machine could beat Deep Blue or any chess computer. And so the very best chess playing entities were these combinations.
+很长一段时间，当我做 TED 演讲时，我在 2012 年、2013 年的 TED 演讲都是真的，当时人类使用机器可以击败深蓝或任何国际象棋计算机。 因此，最好的国际象棋游戏实体就是这些组合。
+That's not true anymore. 那不再是真的了。
+
+AlphaZero and other programs like that, they would get nothing from a human contributing, just be like kind of an annoyance to the chess machine.
+AlphaZero 和其他类似的程序，它们不会从人类的贡献中得到任何东西，就像是对国际象棋机器的一种烦恼。
+So that went through level zero, machines not being able to do anything, through a period where they work together to a period where it's fully autonomous in a span of 20 years or so.
+因此，经历了零级，机器无法做任何事情，经历了它们一起工作的时期，直到在 20 年左右的时间里达到完全自主的时期。
+It would be interesting if anybody wants to work on a research project or if any of you guys have thoughts right now, what are the criteria for which kinds of tasks in the economy will be in that middle zone?
+如果有人想从事一个研究项目，或者如果你们中有人现在有想法，那么经济中哪些类型的任务将处于中间区域的标准是什么？
+Because that middle zone is kind of a nice one for us humans where the machines are helping us, but humans are still indispensable to creating value and that would be, that's a zone where you can have higher productivity, more wealth and performance, but also more likely to have shared prosperity because labor is sort of inherently distributed, whereas technology and capital, as Eric was just saying, potentially could be very concentrated.
+因为中间区域对我们人类来说是一个很好的区域，机器在帮助我们，但人类对于创造价值仍然是不可或缺的，也就是说，在这个区域，你可以拥有更高的生产力、更多的财富和绩效，但也可以更有可能实现共同繁荣，因为劳动力本质上是分散的，而技术和资本，正如埃里克刚才所说，可能会非常集中。
+Do you have a thought on that?
+你对此有什么想法吗？
+
+I was just going to ask kind of a related question. He was saying also that we have a 10 year like chip manufacturing. Yeah, I was surprised about that.
+我只是想问一个相关的问题。 他还说我们的芯片制造还有十年的时间。 是的，我对此感到惊讶。
+And I think what was interesting to me as a labor economist is that it was really like a green flag I've seen in literature and news that, okay, if we're on showing all of this chip manufacturing, isn't that going to create some sort of resurgence in blue collar jobs?
+我认为，作为一名劳动经济学家，对我来说有趣的是，它真的就像我在文学和新闻中看到的一面绿旗，好吧，如果我们展示所有这些芯片制造，那不是会发生吗？创造蓝领工作的某种复苏？
+And I wondered if you had any thoughts about intelligent robotic models or human labor.
+我想知道您对智能机器人模型或人类劳动力是否有任何想法。
+
+Well, I don't think it's going to be much of a, I mean, how many of you guys have visited the chip fab, anybody? You guys, some, a few of you have. How many workers were in that fab? Yeah, I mean, well, okay. So the answer is zero.
+好吧，我认为这不会有太大影响，我的意思是，你们中有多少人参观过芯片工厂，有人吗？你们中的一些人有。那个工厂有多少工人？是的，我的意思是，好吧。所以答案是零。
+
+Like the reason they don't let you, they don't let anyone go in because we humans are too like clumsy and dirty and like, you know, we can't, this just, so it's all robotic. It's sealed inside. So there is like work to, you know, bring stuff to them, et cetera.
+就像他们不让你进去的原因一样，他们不让任何人进去，因为我们人类太笨拙、肮脏，就像，你知道，我们不能，这只是，所以这都是机器人。 里面是密封的。 所以，你知道，有一些工作可以给他们带来东西，等等。
+And if a robot like falls over or something goes wrong, they have to put on, you've probably seen these like, they look like space suits, you know, they have to go in and then they kind of maybe adjust something and then they go back out and hope they didn't break anything.
+如果像机器人这样的人摔倒或者出了什么问题，他们就必须穿上，你可能见过这些，它们看起来像太空服，你知道，他们必须进去，然后他们可能会调整一些东西，然后他们回去后希望没有破坏任何东西。
+That's, so it's basically lights out.
+就是这样，基本上就熄灯了。
+
+Yeah, I don't think it's, there are some, there is some like more sophisticated labor required that I don't think it's like a blue collar research. In fact, one of the reasons that Apple reshored MacBook production to Texas is not because labor is so cheap in Texas or anything.
+是的，我不认为是这样，有一些，有一些需要更复杂的劳动力，我认为这不像蓝领研究。 事实上，苹果将 MacBook 生产迁回德克萨斯州的原因之一并不是因为德克萨斯州的劳动力如此便宜什么的。
+It's that they don't actually require a whole lot of labor anymore. So it's a pretty labor, I think. US manufacturing is surging in terms of output, but in terms of employment, it's not really growing all that much.
+他们实际上不再需要大量的劳动力。 所以我认为这是一项相当辛苦的工作。 美国制造业在产出方面大幅增长，但在就业方面却并没有真正增长那么多。
+
+Yeah. Let's go over here. Yeah. Do you think you have an inflation point coming for agents or text action models in the next year? Oh, yeah.
+是的。我们去这里吧。是的。您认为明年代理或文本操作模型会出现通胀点吗？哦，是的。
+
+No, no. Well, he said what Eric, I'm hearing similar thing. Actually, he had a really nice way of putting those three trends. I've heard about them all separately, but I think it was good to bring them all together.
+不，不。 嗯，他说了些什么，埃里克，我也听到了类似的话。 事实上，他有一种非常好的方式来体现这三种趋势。 我曾分别听说过它们，但我认为将它们放在一起是件好事。
+Earlier today, I was talking to Andrew Eng, and he's like been beating this drum about agents in particular as being sort of the wave of 2024 where Andrew had a nice way of describing it that like, as you guys know, like if you have an LLM, I don't know, write an essay or something like that, it writes it one word at a time and it just goes through in one pass and writes the essay.
+今天早些时候，我与 Andrew Eng 交谈，他一直在大力宣传特工，尤其是 2024 年的浪潮，安德鲁用一种很好的方式来描述它，就像你们知道的那样，就像如果你们有一个LLM，我不知道，写一篇文章或类似的东西，它一次写一个字，然后一次性完成并写出这篇文章。
+
+And it's pretty good. But imagine if you had to do that, like no backspace, no chance to make an outline first. You just kind of go through. The agents now will say, okay, first make an outline. That's the first step you do when you write an essay.
+而且效果还不错。但想象一下，如果你必须这样做，比如没有退格键，就没有机会先画出轮廓。你只要经历一下就可以了。特工们现在会说，好吧，先列一个大纲。这是写论文时要做的第一步。
+
+And then, you know, fill in each paragraph, then go back and see if the flow is right. Now go back and check the voice. Is this the right level for our audience? Now, you know, and by iterating like that, you can write a much, much better essay or any kind of a task.
+然后，你知道，填写每个段落，然后回去看看流程是否正确。 现在回去检查一下声音。 这对于我们的观众来说合适吗？ 现在，你知道，通过这样的迭代，你可以写出一篇更好的论文或任何类型的任务。
+This is a real revolution.
+这是一场真正的革命。
+
+There's all sorts of things you can just do much better if you do that. Then the thing about the context window is also really important. So I'm just going to quote smart people that I know. Eric Corvitz, I was on a panel with him at the GSB. Some of you may have been there.
+如果你这样做的话，很多事情你都可以做得更好。那么关于上下文窗口的事情也非常重要。所以我只想引用我认识的聪明人的话。埃里克·科维茨（Eric Corvitz），我和他一起参加了 GSB 的一个小组。你们中的一些人可能去过那里。
+
+It was last week. And he had this nice taxonomy. People were asking about fine-tuning. I think Susan was asking about fine-tuning. And he said, well, there's really three ways that you can take a model and have it more customized.
+那是上周。他有一个很好的分类法。人们询问微调。我认为苏珊问的是微调。他说，嗯，实际上有三种方法可以让你的模型变得更加定制化。
+
+One is you can fine-tune it, which basically like train it some more. Another is with larger and larger context windows. And the third is with RAG or techniques like that that are retrieval augmented generation where it goes and accesses external data.
+一是你可以对其进行微调，这基本上就像对其进行更多训练。 另一个是上下文窗口越来越大。 第三种是使用 RAG 或类似的技术，这些技术是检索增强生成并访问外部数据。
+But these context windows seem to be like remarkably effective now. I guess, as Eric was saying, we thought it was hard.
+但这些上下文窗口现在似乎非常有效。 我想，正如埃里克所说，我们认为这很难。
+
+Maybe Peter can explain. But for some reason, we're able to make much, much bigger ones. And now as you can load a whole book or a whole set of books, you can load all sorts of information in there. And that can give you all of the context around it.
+也许彼得可以解释一下。 但出于某种原因，我们能够制造出更大、更大的产品。 现在，由于您可以加载整本书或整套书籍，因此您可以在其中加载各种信息。 这可以为您提供所有相关的背景信息。
+So that's a pretty big revolution.
+所以这是一场相当大的革命。
+
+It opens up a bunch of capabilities that we just didn't have before, including having things much more current, as Eric was saying. Did you want to follow up on that? That's a good question.
+正如埃里克（Eric）所说，它开启了我们以前没有的一系列功能，包括拥有更多的最新功能。 您想跟进此事吗？ 这是个好问题。
+I mean, there's certainly a lot more capital going in, but that kind of begs the question in the comments, why is all this capital going there as opposed to somewhere else? And I think if you look at the arc of history, sometimes it looks kind of smooth.
+我的意思是，肯定有更多的资本进入，但这在评论中引出了一个问题，为什么所有这些资本都流向那里而不是其他地方？ 我认为如果你看一下历史的弧线，有时它看起来有点平滑。
+
+But if you look more closely, there's a lot of jumps. There are certain big inventions and smaller inventions. And Andrew Carparthi was saying that he was playing around with physics.
+但如果你仔细观察，就会发现有很多跳跃。 有某些大发明和小发明。 安德鲁·卡帕蒂说他正在玩弄物理学。
+And to really make progress in physics, to be a top physicist, you have to be incredibly smart, study a whole lot. And maybe if you're lucky, you could make some small incremental contribution, and some people do.
+要真正在物理学方面取得进步，成为顶尖物理学家，你必须非常聪明，进行大量研究。 也许如果你幸运的话，你可以做出一些小的增量贡献，有些人确实这么做了。
+
+But he says that right now in AI machine learning, we seem to be in an era where there's just a lot of low-hanging fruit, that there have been some breakthroughs. And instead of exhausting the space, like picking all the food off of a tree, it's more like combinatorics.
+但他表示，目前在人工智能机器学习领域，我们似乎正处于一个有很多唾手可得的成果的时代，已经取得了一些突破。 它不像耗尽空间，就像从树上采摘所有食物一样，它更像是组合数学。
+In second machinery, they talk about building blocks. When you put two building blocks together, or Lego blocks, you can make more and more. Right now, we seem to be in an era where there's just a lot of opportunity, and people are recognizing that.
+在第二台机器中，他们谈论构建块。 当您将两个积木或乐高积木放在一起时，您可以制作越来越多的积木。 现在，我们似乎处于一个机会很多的时代，人们也意识到了这一点。
+
+And discovery, one discovery begets another discovery, begets another opportunity. And because of that, it attracts the investment. And more people are involved.
+发现，一个发现带来另一个发现，带来另一个机会。 正因为如此，它吸引了投资。 并且有更多的人参与其中。
+And in economics, sometimes when more resources go in, you get diminishing returns, like in, I don't know, in agriculture or in mining. Other places, there's increasing returns.
+在经济学中，有时当投入更多资源时，你会得到收益递减的结果，就像在农业或采矿业，我不知道。 其他地方，回报递增。
+
+And more engineers coming to Silicon Valley makes the existing engineers more valuable, not less valuable. So we seem to be in an era where that's happening.
+更多的工程师来到硅谷会让现有的工程师更有价值，而不是更有价值。 所以我们似乎正处于一个正在发生这种情况的时代。
+And then the flywheel of the additional investment, the additional dollars for training, all of that makes them more and more powerful.
+然后额外投资的飞轮，额外的培训资金，所有这些都使他们变得越来越强大。
+I don't know how long this will continue, but I don't, you know, it just seems that there are some technologies that hit this really fertile period, and there's positive feedback and some help. We seem to be in one of those right now.
+我不知道这种情况会持续多久，但我不知道，你知道，似乎有一些技术迎来了这个真正的肥沃时期，并且得到了积极的反馈和一些帮助。 我们现在似乎正处于其中之一。
+
+So people who are trained in getting in the field are making contributions that are often quite significant in a faster time than they might have in some other fields. Encouraging all of you guys, I think are doing the right thing right now. Yeah.
+因此，接受过该领域培训的人们通常比在其他领域更快地做出重大贡献。 鼓励大家，我认为现在正在做正确的事情。 是的。
+Let's take a couple more questions, and then yeah. Okay, how about over here?
+让我们再问几个问题，然后是的。 好吧，这里怎么样？
+
+So not everyone can sit in a room and have all these discussions and debates around AI.
+因此，并不是每个人都能坐在一个房间里围绕人工智能进行所有这些讨论和辩论。
+And so I'd like to get your thoughts on AI literacy for non-technical stakeholders, whether they're policy makers that have to make it in somewhat informed judgment, or the general public like, you know, using tech.
+因此，我想了解您对非技术利益相关者的人工智能素养的看法，无论他们是必须做出明智判断的政策制定者，还是喜欢使用技术的公众。
+How do you think about explaining technical basics versus discussing abstract implications that don't necessarily have it right in? Well, that's a hard one.
+您如何看待解释技术基础知识与讨论不一定正确的抽象含义？ 嗯，这很难。
+I have to say there's been a sea change recently in terms of how much people in Congress and elsewhere are paying more attention to this topic.
+我不得不说，国会和其他地方的人们对这个话题的关注程度最近发生了巨大的变化。
+
+It used to be not something that they were interested in. Now everyone's trying to understand it a little bit better. And I think that there are a lot of margins where people can make contributions. They can make contributions in the technical side.
+这曾经不是他们感兴趣的事情。 现在每个人都试图更好地理解它。 我认为人们可以做出很多贡献。 他们可以在技术方面做出贡献。
+But if anything, I mean, my bet is that the business and economic side is where the bigger bottleneck is right now.
+但如果有的话，我的意思是，我的赌注是商业和经济方面是目前更大的瓶颈。
+
+That, you know, even if, you know, if you made enormous contribution to the technology side, you still, there's still a gap converting that into something that will change policy.
+即使你知道，如果你对技术方面做出了巨大贡献，但将其转化为改变政策的东西仍然存在差距。
+So understand if you're into political science or politician, understanding what are the implications for democracy and for misinformation and power and concentration. Those are things that are not well understood at all.
+因此，如果您热衷于政治学或政治家，请了解对民主、错误信息、权力和集中的影响。 这些都是根本不被很好理解的事情。
+I don't know that a computer scientist is necessarily the right person to try to understand that. But understanding enough about the technology so you know what might be possible.
+我不知道计算机科学家一定是尝试理解这一点的合适人选。 但对这项技术有足够的了解，这样你就知道什么是可能的。
+
+And then thinking through what are the dynamics like Henry Kissinger was doing with Eric Schmidt in his book.
+然后思考亨利·基辛格在他的书中与埃里克·施密特所做的动态是什么。
+If you're an economist thinking through the labor market implications, the implications for concentration, the implications for inequality and jobs, implications for productivity and what drives productivity. Those are things that are very ripe right now.
+如果你是一名经济学家，正在思考劳动力市场的影响、对集中度的影响、对不平等和就业的影响、对生产力的影响以及推动生产力的因素。 这些都是现在非常成熟的事情。
+And you could go through lots of different fields where there's, you know, understanding well enough what the technology might be capable of. But then thinking through the implications.
+你可以涉足许多不同的领域，在这些领域，你知道，充分了解这项技术的能力。 但随后思考其影响。
+
+That's I think where some of the biggest payoffs are. I mean, let me give you a little bit more of a concrete example. And this is something I was going to talk about last week. Electricity was also a general purpose technology.
+我认为这就是一些最大的回报所在。 我的意思是，让我给你举一个更具体的例子。 这就是我上周要谈论的事情。 电力也是一种通用技术。
+And general purpose technologies have this characteristic that they're part of in and of themselves.
+通用技术具有这样的特征：它们是其自身的一部分。
+
+But one of the real powers of general purpose technologies, GPTs as I was saying, is that they give complimentary, they ignite complimentary innovations.
+但通用技术（GPT）的真正力量之一，正如我所说，是它们提供互补，它们激发互补的创新。
+So electricity, light bulbs and computers and electric motors and electric motors give you compressors and refrigerators and air conditioning. You can just kind of have a whole set cascade of additional innovations from this one innovation.
+因此，电力、灯泡、计算机、电动机和电动机为你提供了压缩机、冰箱和空调。 您可以从这一创新中获得一整套额外的创新。
+And most of the value comes from these complimentary innovations. One thing people don't appreciate enough is that some of the most important complimentary innovations are organizational and human capital complementarities.
+大部分价值来自这些免费的创新。 人们没有充分认识到的一件事是，一些最重要的互补性创新是组织和人力资本的互补性。
+
+So with electricity, when they first introduced electricity into factories, Paul David here at Stanford studied what happened to those factories. And surprisingly, not much.
+因此，对于电力，当他们第一次将电力引入工厂时，斯坦福大学的保罗·大卫研究了这些工厂发生了什么。 令人惊讶的是，并不多。
+The factories when they started electrifying, they were not significantly more productive than the previous factories that were powered by steam engines. He's like, well, that's kind of weird because this seems like a pretty important technology. Is it just a fad?
+当工厂开始电气化时，它们的生产力并没有比以前由蒸汽机驱动的工厂高出多少。 他说，嗯，这有点奇怪，因为这似乎是一项非常重要的技术。 这只是一种时尚吗？
+
+Obviously not. The factories before electricity were powered by steam engines. They typically had a big steam engine in the middle and then crankshafts and pulleys that powered all the equipment. And it was all distributed.
+显然不是。 电力出现之前的工厂是由蒸汽机提供动力的。 他们通常在中间有一个大型蒸汽机，然后是为所有设备提供动力的曲轴和皮带轮。 一切都已分发。
+But you tried to have it as close to the steam engine as possible because if you make the crankshaft too long, it would break the torsion.
+但你试图让它尽可能靠近蒸汽机，因为如果你把曲轴做得太长，它会破坏扭矩。
+
+When they introduced electricity, he found that in factory after factory, they would pull out the steam engine and they would get the biggest electric motor they could find and put it where the steam engine used to be and fire it up.
+当他们引进电力时，他发现在一个又一个的工厂里，他们会拿出蒸汽机，找到他们能找到的最大的电动机，把它放在蒸汽机原来所在的地方并点燃它。
+But you know, it didn't really change production a whole lot. You can see that that's not a big deal. So then they started building entirely new factories from scratch in a new location. What did those look like?
+但你知道，它并没有真正改变生产。 你可以看到这没什么大不了的。 于是他们开始在新地点从头开始建造全新的工厂。 那些看起来是什么样子的？
+
+Just like the old ones. They would take the same model. Some engineer would make a blueprint, you know, maybe take it, make a big X where the steam engine says, no, no, put electric motor here. And they'd go and build a fresh factory. Again, not a big improvement in productivity.
+就像旧的一样。他们会采用相同的模型。一些工程师会制作一个蓝图，你知道，也许拿着它，在蒸汽机上画一个大X，说不，不，把电动机放在这里。他们会去建造一座新工厂。同样，生产率并没有太大提高。
+
+It took about 30 years before we started seeing a fundamentally different kind of factory where instead of having the central power source, you know, a big one in the middle, you had distributed power because electric motors, as you guys know, you know, you can make them big, you can make a medium, you can make them really, really small.
+大约过了 30 年，我们才开始看到一种完全不同的工厂，那里没有中央电源，你知道，中间有一个大电源，而是分布式电源，因为电动机，正如你们所知，你知道，你可以把它们做得很大，你可以把它们做得中等，你可以把它们做得非常非常小。
+You can have them all connected in different ways. So they started having each piece of equipment have a separate piece of a separate motor instead of one big one. They called it unit drive instead of group drive.
+您可以通过不同的方式将它们全部连接起来。 因此，他们开始让每台设备都有一个单独的电机，而不是一个大电机。 他们称之为单位驱动而不是群体驱动。
+I went and read the books in Baker Library at Harvard Business School from like 1914.
+我去哈佛商学院贝克图书馆读了 1914 年左右的书。
+
+And it was like this whole debate about unit drive versus group drive.
+这就像关于单位驱动与群体驱动的整个争论。
+Well, when they started doing that, then they had a new layout of factories where it was typically on a single story where the machinery was not based on how much power it needed, but based on the on something else, the flow of materials.
+好吧，当他们开始这样做时，他们有了一个新的工厂布局，通常在一个单一的故事中，机器不是基于它需要多少电力，而是基于其他东西，即材料的流动。
+And you started having these assembly line systems. That led to a huge improvement in productivity, like a doubling of productivity or tripling in some cases. So the lesson is not that electricity was a fad or dud and was overhyped.
+然后你开始拥有这些装配线系统。 这导致生产力的巨大提高，例如生产力增加一倍或在某些情况下增加两倍。 因此，我们的教训并不是说电力是一种时尚或无用的东西，也不是被过分夸大的。
+
+Electricity was a fundamentally valuable technology. But it wasn't until they had that process innovation, that organizational innovation of rethinking how to do production that you got the big payoff. There's a lot of stories like that. I only told you one of them.
+电力是一项非常有价值的技术。 但直到他们进行了流程创新、重新思考如何进行生产的组织创新，你才获得了巨大的回报。 类似这样的故事还有很多。 我只告诉过你其中之一。
+We don't want that much time.
+我们不需要那么多时间。
+
+So I tell you the other ones. But in some of my books and articles, if you look at the steam engine and others, you had similar generational lags decades before people realized that this technology could allow you to do something completely different than you used to do.
+所以我告诉你其他的。 但在我的一些书籍和文章中，如果你看看蒸汽机和其他人，你会发现，在人们意识到这项技术可以让你做一些与过去完全不同的事情之前，你会发现类似的代际滞后几十年。
+I think AI is a bit like that in some ways, that there's going to be a lot of organizational innovations, going to be new business models, new ways of organizing an economy that we hadn't thought of before. Right now, people are mostly just retrofitting.
+我认为人工智能在某些方面有点像，将会有很多组织创新，将会出现新的商业模式，以及我们以前没有想到的组织经济的新方式。 现在，人们大多只是进行改造。
+I could go through a whole other set of skill changes that are complementary.
+我可以经历一整套其他互补的技能改变。
+
+I don't know what they all are. You have to be creative to think about them. But that's what the gap is.
+我不知道它们都是什么。 你必须要有创意才能思考它们。 但这就是差距。
+In the case of early computers, it's literally like 10 times more investment in organizational capital and human capital, if you look at the size of the investments, to the hardware and software. So that's very big.
+就早期计算机而言，如果你看看硬件和软件的投资规模，那么组织资本和人力资本的投资实际上是原来的 10 倍。 所以这是非常大的。
+
+That said, I'm open to adjusting my thoughts on this a bit because ChachiPT and some of the other tools, they have been adopted very quickly and they have much more quickly been able to change things, in part because you don't need to learn Python to the same degree.
+也就是说，我愿意稍微调整一下我的想法，因为 ChachiPT 和其他一些工具很快就被采用了，并且能够更快地改变事情，部分原因是你不需要学习Python到同样的程度。
+You can do a lot of things just in English. And you can get a lot of value just by putting them on top of the existing organization. So some of it's happening faster.
+只用英语就可以做很多事情。 只需将它们置于现有组织之上，您就可以获得很多价值。 所以有些事情发生得更快。
+And in some of the papers that you may have read for the readings here, you know, we had like 15, 20, 30% productivity gains pretty quickly.
+在您可能已经阅读过的一些论文中，您知道，我们的生产力很快就提高了 15%、20%、30%。
+
+But my suspicion is that it will be even bigger once people figure out these complementary innovations. And so that's a long way of answering your question about it. It's not just the technical skills. It's figuring out all the other stuff, all the ways of rethinking things.
+但我怀疑，一旦人们弄清楚这些互补的创新，它的规模将会更大。 所以要回答你的问题就需要很长的路要走。 这不仅仅是技术技能。 它正在弄清楚所有其他的事情，所有重新思考事物的方法。
+So those of you who are at the business school or in economics, you know, there's a lot of opportunity there to rethink your areas now that you've been given this amazing set of technologies.
+因此，那些在商学院或经济学领域工作的人，您知道，既然您已经获得了这套令人惊叹的技术，那么就有很多机会重新思考您的领域。
+
+Yeah, question. It seems like you're expressing more caution than Eric was with regard to the speed of transformation. Am I correct in saying that? Well, so I would make a distinction between two things. I'll defer to him and others on the technology side.
+是的，问题。对于转型速度，您似乎比埃里克表现得更加谨慎。我这样说对吗？好吧，所以我要区分两件事。我会尊重他和技术方面的其他人。
+
+We're going to hear from several other folks. And there are people who are equally optimistic as him or even more optimistic on the technology side. There's also people who are less optimistic. But technology alone is not enough to create productivity.
+我们将听取其他几个人的意见。 而且还有人和他一样乐观，甚至对技术方面更加乐观。 也有人不那么乐观。 但仅靠技术还不足以创造生产力。
+So you can have an amazing technology.
+所以你可以拥有惊人的技术。
+
+And then for various reasons, A, maybe people just don't figure out an effective way to use it. Another is it may be regulatory things. I mean, some of my computer science colleagues introduced and developed better radiology systems for reading medical images.
+然后由于各种原因，A，也许人们只是没有找到有效的使用方法。 另一个可能是监管方面的事情。 我的意思是，我的一些计算机科学同事引入并开发了更好的放射学系统来读取医学图像。
+They weren't adopted because of cultural, you know, people just didn't want them. They didn't want and there are safety reasons.
+它们没有被采用是因为文化，你知道，人们只是不想要它们。 他们不想这么做，也是有安全原因的。
+
+When I did an analysis of which tasks I could help the most and which professions were most affected, I was surprised that airline pilots was kind of near the top. But I think that a lot of people would not feel comfortable not having the pilot go down with you.
+当我分析哪些任务是我能提供最大帮助以及哪些职业受影响最大时，我惊讶地发现航空公司飞行员几乎名列前茅。 但我认为如果没有飞行员与你一起坠落，很多人都会感到不舒服。
+So they sort of you want to have the human in there. So there are a lot of different things that might slow it down significantly. And I think that's something we need to be conscious of.
+所以他们有点希望有人在那里。 因此，有很多不同的事情可能会显着减慢速度。 我认为这是我们需要意识到的事情。
+
+And if we could address those bottlenecks, that would probably do more for productivity than just working on the technology alone. Yeah, question. So Eric had an interesting comment on data centers in universities.
+如果我们能够解决这些瓶颈，那么这可能比仅仅研究技术更能提高生产力。 是的，问题。 Eric 对大学数据中心有一个有趣的评论。
+I think this is a larger point of like, and I was going to ask him why doesn't he write a check? People are asking him that question.
+我认为这是一个更大的问题，我本来想问他为什么不写一张支票？ 人们在问他这个问题。
+
+Sort of like, what is the role of the university ecosystem? Obviously, there is this larger I'm sure all of the CS professors here. So I'll take I mean, I think it'd be great if there were more funding.
+有点像，大学生态系统的作用是什么？ 显然，我确信这里所有的计算机科学教授都有这个更大的东西。 所以我的意思是，我认为如果有更多的资金那就太好了。
+I mean, the federal government has something called the national AI resource that is helping a little bit, but it's in like the millions of dollars, tens of millions of dollars, not billions of dollars, let alone hundreds of billions of dollars.
+我的意思是，联邦政府有一个叫做国家人工智能资源的东西，可以提供一点帮助，但它的金额大约是数百万美元、数千万美元，而不是数十亿美元，更不用说数千亿美元了。
+Although Eric did mention to me before class that they're working on something that could be much, much bigger.
+尽管埃里克在课前确实向我提到，他们正在研究一些可能更大的东西。
+
+He's pushing for something much, much bigger. I don't know if it'll happen. That's for training these really large models. I had a really interesting conversation with Jeff Hinton once. Jeff Hinton, as you know, is sort of like one of the godfathers of deep learning.
+他正在推动一些非常非常大的事情。我不知道它是否会发生。这是为了训练这些非常大的模型。有一次我和 Jeff Hinton 进行了一次非常有趣的谈话。如您所知，杰夫·辛顿（Jeff Hinton）有点像深度学习的教父之一。
+
+And I asked him like what kind of hardware he found most useful for doing his work. And he was sitting at his laptop and kind of just tapped his MacBook.
+我问他，他认为哪种硬件对完成他的工作最有用。 他坐在笔记本电脑前，轻轻敲击着他的 MacBook。
+And it just reminded me there's a whole other set of research that maybe universities have a competitive advantage in, which is not training hundred billion dollar models, but it's innovating new algorithms like whatever comes after Transformers and there's a lot of other ways that people can make contributions.
+它只是提醒我，还有一整套研究也许大学具有竞争优势，这不是训练千亿美元的模型，而是创新新的算法，就像变形金刚之后出现的任何算法一样，人们还有很多其他方法可以做出贡献。
+So maybe there's a little bit of a divisional labor. I'm all for and support my colleagues asking for more budgets for GPUs, but that's not always where academics can make the biggest contribution.
+所以也许存在一点分工。 我完全赞成并支持我的同事要求为 GPU 提供更多预算，但这并不总是学术界能够做出最大贡献的地方。
+
+Some of it comes from ideas and new ways of different perspective about thinking about things, new approaches. And that's likely where we have an advantage. I had dinner with Sendham Melanathon last week. He just moved from Chicago to MIT. And he was a researcher.
+其中一些来自于思考事物的不同视角、新方法的想法和新方式。这可能就是我们的优势所在。上周我和 Sendham Melanathon 共进晚餐。他刚刚从芝加哥搬到麻省理工学院。他是一名研究员。
+
+We're talking about what is the comparative advantage of universities? And he made the case, you know, patience is one of them, that there are people in universities who are working on very long term projects. You know, there's people working on fusion.
+我们谈论的是大学的比较优势是什么？ 他指出，耐心就是其中之一，大学里有人正在从事非常长期的项目。 你知道，有人致力于核聚变。
+They've been working on fusion for a long time, not because they're going to get, you know, a lot of money this year or 10 years from now, probably from building a fusion plant or even 20 years. I don't know how long it is for fusion.
+他们长期以来一直致力于核聚变，并不是因为他们会在今年或 10 年后获得大量资金，可能是通过建造核聚变工厂甚至 20 年。 不知道融合还要多久。
+
+But, you know, it's just something that people are willing to work on even if the timelines are a little further. It's harder for companies to afford to have those kinds of timelines.
+但是，你知道，这只是人们愿意努力的事情，即使时间表有点远。 对于公司来说，承担这样的时间表是比较困难的。
+So there's a comparative advantage or divisional labor in terms of what universities might be able to do. We have just a couple minutes left. This is kind of fun.
+因此，就大学的能力而言，存在比较优势或分工。 我们只剩下几分钟了。 这很有趣。
+
+So we'll just do one or two more questions. And then I want to talk a little bit about the projects. Yeah. Go ahead. I'm Kevin.
+所以我们再做一两个问题。然后我想谈谈这些项目。是的。前进。我是凯文。
+
+I was wondering about the emerging capabilities of AI. It seemed that Eric was leaning more towards the architectural differences and designing better models versus the last class we talked about, Morse law instead. So I'm wondering how you sort of... Well, he said all three.
+我想知道人工智能的新兴功能。 与我们讨论的最后一课（摩尔斯定律）相比，埃里克（Eric）似乎更倾向于架构差异并设计更好的模型。 所以我想知道你怎么样... 嗯，他三个都说了。
+So you guys remember the scaling laws?
+那么你们还记得比例定律吗？
+
+It had like three parts to it. I think I put the scaling law that Dario and team... So there's more compute, more data and algorithmic improvements, including more parameters. And all three of them, I think I heard Eric say all three of them were important.
+它大约有三个部分。 我想我把达里奥和团队的缩放法则... 因此，需要更多的计算、更多的数据和算法改进，包括更多的参数。 他们三个，我想我听埃里克说他们三个都很重要。
+But not to be dismissed, this last one, like new architectures, all three of them, I think, are being important.
+但不可忽视的是，最后一个，就像新架构一样，我认为这三个都非常重要。
+
+So I think there was another question in there, though, also. How much closer are we to like an AGI type system? So Eric doesn't think we're like that close to AGI type systems, although I don't think it's like a sharp definition.
+所以我认为其中还存在另一个问题。 我们离喜欢 AGI 类型系统还有多远？ 因此，Eric 并不认为我们与 AGI 类型系统那么接近，尽管我认为这并不是一个明确的定义。
+You know, in fact, that was one of the... I was going to ask him that question, but we ran out of time.
+你知道，事实上，那是其中之一...... 我本来想问他这个问题，但我们没时间了。
+
+It would have been good to hear him describe it. But when I was talking to him, it's just not that sharply defined thing. In some ways, AGI is already here. Peter Norvig wrote an article called AGI is already here. I don't know if it's in the reading packet.
+很高兴听到他描述这一点。但当我和他交谈时，这并不是那么明确的定义。从某些方面来说，AGI 已经到来。 Peter Norvig 写了一篇名为“AGI 已经在这里”的文章。不知道阅读包里有没有。
+
+I think if it's not, I'll put it in there. It's a fun little article with Blaise Iarca. And a lot of the things that 20 years ago people would have said, this is what AGI is. That's kind of what LLMs are doing.
+我想如果没有的话我会把它放在那里。 这是 Blaise Iarca 撰写的一篇有趣的小文章。 20 年前人们会说很多话，这就是 AGI。 就是这样的LLMs正在做。
+Not as well, maybe, but it's sort of solving problems in a more general way.
+也许不太好，但它是以一种更通用的方式解决问题。
+
+On the other hand, there's obviously many things they do much worse than humans currently. Ironically, physical tasks are one of the ones that humans have a comparative advantage in right now. You guys may know Moravec's paradox.
+另一方面，显然他们目前在很多事情上做得比人类差得多。 讽刺的是，体力任务是人类目前具有比较优势的任务之一。 你们可能知道莫拉维克悖论。
+Hans Moravec pointed out that often the kinds of things that a three-year-old or a four-year-old can do, like buttoning a shirt or walking upstairs, are very hard to get a machine to be able to do.
+汉斯·莫拉维克指出，通常三岁或四岁的孩子可以做的事情，比如扣衬衫扣子或走上楼，很难让机器来做。
+Whereas a lot of things that a lot of PhDs have trouble doing, like solving convex optimization problems, are things that machines are often quite good at.
+尽管许多博士在做时遇到困难，比如解决凸优化问题，但机器通常很擅长做这些事情。
+
+So it's not quite things that are easy for humans and hard for computers and other things that are hard for humans and easy for computers. They're not like the same scale. And next week we have Mira Morati, Chief Technology Officer of OpenAI, briefly the CEO of OpenAI.
+因此，并不完全是对人类来说容易而对计算机来说困难的事情，以及其他对人类来说困难而对计算机来说容易的事情。 它们不像同一个尺度。 下周我们将邀请 OpenAI 首席技术官 Mira Morati 担任 OpenAI 首席执行官。
+So come with your questions for her. We'll see you.
+所以请带着你的问题来问她。 我们会再见。
+
+[BLANK_AUDIO] [空白音频]
